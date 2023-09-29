@@ -1,1 +1,13 @@
+# OS
 .DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+
+# Hugo
+/assets/jsconfig.json
+/public/
+/resources/
+hugo_stats.json
+.hugo_build.lock

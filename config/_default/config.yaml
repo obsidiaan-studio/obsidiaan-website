@@ -1,0 +1,6 @@
+baseURL: https://www.obsidiaan.studio/
+languageCode: en-us
+title: Obsidiaan Studio
+disableKinds:
+  - RSS
+  - taxonomy
