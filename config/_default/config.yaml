@@ -2,4 +2,3 @@ baseURL: "https://www.obsidiaan.studio/"
 languageCode: "en"
 title: "Obsidiaan Studio"
 disableKinds: [taxonomy, term, RSSS]
-publishDir: "_site"
