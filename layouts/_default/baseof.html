@@ -1,8 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ .Page.Params.description | default .Site.Params.description | markdownify }}">
+    <meta name="author" content="{{ .Site.Params.authors }}">
+    <meta name="generator" content="Hugo {{ hugo.Version }}">
     <title>{{ .Site.Title }}{{ if .Page.Title }} - {{ .Page.Title }}{{ end }}</title>
     {{/* START CSS */}}
     {{ $cssOptions := dict
@@ -21,7 +24,7 @@
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $styles.Data.Integrity }}"{{ end }} crossorigin="anonymous">
     {{/* END CSS */}}
   </head>
-  <body>
+  {{ block "body_override" . }}<body>{{ end }}
     {{ partialCached "header.html" . }}
     <main>
       {{ block "main" . }}
@@ -29,14 +32,19 @@
     </main>
     {{ partialCached "footer.html" . }}
     {{/* START JS */}}
-    {{ $jqueryJs := resources.Get "assets/js/jquery/jquery.slim.js" }}
-    {{ $bootstrapJs := resources.Get "assets/js/bootstrap/bootstrap.bundle.js" }}
-    {{ if hugo.IsProduction }}
-    {{   $jqueryJs = resources.Get "assets/js/jquery/jquery.slim.min.js" | fingerprint }}
-    {{   $bootstrapJs = resources.Get "assets/js/bootstrap/bootstrap.bundle.min.js" | fingerprint }}
+    {{ $scripts := slice
+         (dict "path" "js/jquery/jquery.slim.js" "targetPath" "assets/js/jquery.slim.js")
+         (dict "path" "js/bootstrap/bootstrap.bundle.js" "targetPath" "assets/js/bootstrap.bundle.js")
+    }}
+    {{ range $scripts }}
+    {{   $path := index . "path" }}
+    {{   $targetPath := index . "targetPath" }}
+    {{   $js := resources.Get $path | js.Build (dict "targetPath" $targetPath) }}
+    {{   if hugo.IsProduction }}
+    {{     $js = $js | minify | fingerprint }}
+    {{   end }}
+    <script src="{{ $js.RelPermalink }}"></script>
     {{ end }}
-    <script src="{{ $jqueryJs.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $jqueryJs.Data.Integrity }}"{{ end }} crossorigin="anonymous"></script>
-    <script src="{{ $bootstrapJs.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $bootstrapJs.Data.Integrity }}"{{ end }} crossorigin="anonymous"></script>
     {{/* END JS */}}
   </body>
 </html>

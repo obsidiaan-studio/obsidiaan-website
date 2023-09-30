@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "hugo server",
     "build": "hugo",
-    "clean": "del public",
+    "clean": "del _site",
     "deps-check-updates": "ncu",
     "deps-upgrade": "ncu --upgrade --filterVersion '^*'"
   },

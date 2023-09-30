@@ -1,9 +1,9 @@
 mounts:
   # assets
   - source: node_modules/bootstrap/dist/js
-    target: assets/assets/js/bootstrap
+    target: assets/js/bootstrap
   - source: node_modules/jquery/dist
-    target: assets/assets/js/jquery
+    target: assets/js/jquery
   - source: assets
     target: assets
   # content
