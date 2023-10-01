@@ -13,4 +13,4 @@ mounts:
   - source: node_modules/@fontsource-variable/inter/files
     target: static/assets/fonts
   - source: static
-    target: static
+    target: static/assets
