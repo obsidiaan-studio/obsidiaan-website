@@ -6,8 +6,8 @@
     "dev": "hugo server",
     "build": "hugo",
     "clean": "del public",
-    "deps-check-updates": "ncu",
-    "deps-upgrade": "ncu --upgrade --filterVersion '^*'"
+    "ncu": "ncu",
+    "ncu-upgrade": "ncu --upgrade --filterVersion '^*'"
   },
   "dependencies": {
     "@fontsource-variable/inter": "^5.0.8",
