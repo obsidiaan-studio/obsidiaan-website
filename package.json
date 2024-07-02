@@ -3,23 +3,35 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "hugo server",
-    "build": "hugo",
-    "clean": "del public",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "clean": "del dist",
+    "lint": "next lint",
     "ncu": "ncu",
-    "ncu-upgrade": "ncu --upgrade --filterVersion '^*'"
+    "ncu:upgrade": "ncu --upgrade --filterVersion '^*'",
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write ."
   },
   "dependencies": {
-    "@fontsource-variable/inter": "^5.0.8",
-    "bootstrap": "^5.3.2",
-    "bootstrap-table": "^1.22.1",
-    "jquery": "^3.7.1"
+    "next": "14.2.4",
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.16",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
     "del-cli": "^5.1.0",
-    "npm-check-updates": "^16.14.4",
-    "postcss": "^8.4.30",
-    "postcss-cli": "^10.1.0"
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "eslint-config-prettier": "^9.1.0",
+    "npm-check-updates": "^16.14.20",
+    "postcss": "^8",
+    "prettier": "^3.3.2",
+    "prettier-plugin-tailwindcss": "^0.6.5",
+    "sass": "^1.77.6",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
