@@ -322,21 +322,5 @@
         ]
       }
     ]
-  },
-  {
-    "title": "Sign in",
-    "link": "/login",
-    "hideToLoggedUser": true
-  },
-  {
-    "title": "Sign up",
-    "link": "/signup",
-    "hideToLoggedUser": true
-  },
-  {
-    "title": "Add a listing",
-    "link": "/user-add-0",
-    "button": true,
-    "hideToLoggedUser": true
   }
 ]
