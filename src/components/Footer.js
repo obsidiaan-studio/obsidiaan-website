@@ -142,7 +142,7 @@ const Footer = () => {
           <Row className="align-items-center">
             <Col md="6" className="text-center text-md-start">
               <p className="text-sm mb-md-0">
-                © 2024, Your company. All rights reserved.
+                © 2024 Obsidiaan. All rights reserved.
               </p>
             </Col>
             <Col md="6">
