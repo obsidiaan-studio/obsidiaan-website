@@ -63,7 +63,7 @@ const Header = (props) => {
         expanded={collapsed}
         className={props.nav.classes ? props.nav.classes : ""}
       >
-        <Container fluid>
+        <Container>
           <div className="d-flex align-items-center">
             {/* NAVBAR BRAND */}
             <Link href="/" passHref>
