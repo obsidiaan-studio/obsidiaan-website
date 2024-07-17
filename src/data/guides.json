@@ -1,31 +1,37 @@
 {
-    "title": "Our guides",
-    "subTitle": "Stay and eat like a local",
+    "title": "Mijn werken",
+    "subTitle": "Lorem ipsum dolor sit amet",
     "button": "See all guides",
     "buttonLink": "/category-2-rooms",
     "swiperItems": [
         {
-            "title": "New York",
-            "subtitle": "The big apple",
-            "img": "img/photo/new-york.jpg",
+            "title": "De Denker",
+            "subtitle": "Glas in lood",
+            "img": "img/photo/glasstudiogielis-dedenker.jpg",
             "link": "/category-2-rooms"
         },
         {
-            "title": "Paris",
-            "subtitle": "Artist capital of Europe",
-            "img": "img/photo/paris.jpg",
+            "title": "De Vuurtoren",
+            "subtitle": "Glas in lood",
+            "img": "img/photo/glasstudiogielis-vuurtoren.jpg",
             "link": "/category-2-rooms"
         },
         {
-            "title": "Barcelona",
-            "subtitle": "Dalí, Gaudí, Barrio Gotico",
-            "img": "img/photo/barcelona.jpg",
+            "title": "Groen & rood",
+            "subtitle": "Glas in lood",
+            "img": "img/photo/studioglasrijk-klassiek1.jpg",
             "link": "/category-2-rooms"
         },
         {
-            "title": "Prague",
-            "subtitle": "City of hundred towers",
-            "img": "img/photo/prague.jpg",
+            "title": "Groen & geel",
+            "subtitle": "Glas in lood",
+            "img": "img/photo/studioglasrijk-klassiek2.jpg",
+            "link": "/category-2-rooms"
+        },
+        {
+            "title": "Smiley schaal",
+            "subtitle": "Fusing",
+            "img": "img/photo/studioglasrijk-fusing1.jpg",
             "link": "/category-2-rooms"
         }
     ]

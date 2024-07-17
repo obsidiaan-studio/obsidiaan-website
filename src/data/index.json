@@ -1,14 +1,12 @@
 {
     "hero": {
-        "title": "Stay like a local",
-        "subTitle": "The best holiday experience"
+        "title": "Obsidiaan glaswerk",
+        "subTitle": "Door Antoinette Dols"
     },
     "swiperPoster": "photo-1501621965065-c6e1cf6b53e2-lowres.jpg",
     "swiperImages": [
-        "photo-1501621965065-c6e1cf6b53e2.jpg",
-        "photo-1519974719765-e6559eac2575.jpg",
-        "photo-1490578474895-699cd4e2cf59.jpg",
-        "photo-1534850336045-c6c6d287f89e.jpg"
+        "glasstudiogielis-banner.png",
+        "glasatelierclaire1.jpg"
     ],
     "searchOptions": [
         {
@@ -29,22 +27,22 @@
         }
     ],
     "topBlocks": {
-        "title": "Booking with us is easy",
-        "subTitle": "One-of-a-kind vacation rentals",
+        "title": "lorem ipsum dolor sit amet",
+        "subTitle": "consectetur adipiscing elit",
         "blocks": [
             {
-                "title": "Find the perfect rental",
-                "content": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed in",
+                "title": "sed do eiusmod",
+                "content": "tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
                 "icon": "destination-map-1"
             },
             {
-                "title": "Book with confidence",
-                "content": "The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pit",
+                "title": "quis nostrud",
+                "content": "exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
                 "icon": "pay-by-card-1"
             },
             {
-                "title": "Enjoy your vacation",
-                "content": "His room, a proper human room although a little too small, lay peacefully between its four familiar",
+                "title": "duis aute",
+                "content": "irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
                 "icon": "heart-1"
             }
         ]

@@ -60,12 +60,6 @@ const Index = () => {
                   </h1>
                 </div>
               )}
-              <SearchBar
-                options={data.searchOptions}
-                className="mt-5 p-3 p-lg-1 ps-lg-4"
-                btnClassName="rounded-pill"
-                id="index-1-searchbar"
-              />
             </Col>
           </Row>
         </Container>

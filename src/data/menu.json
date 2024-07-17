@@ -22,6 +22,46 @@
     ]
   },
   {
+    "title": "Technieken",
+    "link": "/technieken",
+    "dropdown": [
+      {
+        "title": "Glas in lood",
+        "link": "/technieken/glas-in-lood"
+      },
+      {
+        "title": "Tiffany",
+        "link": "/tehcnieken/tiffany"
+      },
+      {
+        "title": "Fussen",
+        "link": "/technieken/fussen"
+      }
+    ]
+  },
+  {
+    "title": "Portofolio",
+    "link": "/portofolio",
+    "dropdown": [
+      {
+        "title": "Glas in lood",
+        "link": "/portofolio/glas-in-lood"
+      },
+      {
+        "title": "Tiffany",
+        "link": "/portofolio/tiffany"
+      },
+      {
+        "title": "Fussen",
+        "link": "/portofolio/fussen"
+      }
+    ]
+  },
+  {
+    "title": "Contact",
+    "link": "/contact"
+  },
+  {
     "title": "Template",
     "position": "static",
     "megamenu": [
@@ -266,10 +306,6 @@
       }
     ],
     "image": "/content/img/photo/photo-1521170665346-3f21e2291d8b.jpg"
-  },
-  {
-    "title": "Contact",
-    "link": "/contact"
   },
   {
     "title": "Docs",
