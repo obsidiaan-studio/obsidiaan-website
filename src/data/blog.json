@@ -2,32 +2,30 @@
   "posts": [
     {
       "id": "11",
-      "title": "Escape the city today",
-      "slug": "escape-city-today",
+      "title": "Glas in lood",
+      "slug": "glas-in-lood",
       "subtitle": "Featured",
-      "category": "Travel",
-      "date": "January 16, 2016",
-      "content": "Is am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built party world...",
+      "content": "Bij glas in lood worden stukjes gekleurd glas met loodprofielen aan elkaar verbonden om decoratieve ramen te creëren, vaak te zien in kerken en historische gebouwen.",
       "link": "post",
       "img": "img/photo/photo-1467987506553-8f3916508521.jpg"
     },
     {
       "id": "1",
-      "title": "Autumn fashion tips and tricks",
+      "title": "Tiffany",
       "slug": "autumn-fashion-tips-and-tricks",
       "category": "Travel",
       "date": "January 16, 2016",
-      "content": "Pellentesque habitant morbi tristique senectus. Vestibulum tortor quam, feugiat vitae, ultricies ege...",
+      "content": "Tiffany-techniek gebruikt koperfolie in plaats van lood om glasstukjes samen te voegen, waardoor gedetailleerde en kleurrijke ontwerpen zoals lampen en ramen ontstaan.",
       "link": "post",
       "img": "img/photo/photo-1512917774080-9991f1c4c750.jpg"
     },
     {
       "id": "2",
-      "title": "Newest photo apps",
+      "title": "Fusen",
       "slug": "newest-photo-apps",
       "category": "Living",
       "date": "January 16, 2016",
-      "content": "ellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibu...",
+      "content": "Fusen is een moderne techniek waarbij verschillende lagen glas in een oven worden versmolten tot unieke vormen en ontwerpen, gebruikt voor sieraden en decoratieve kunstwerken.",
       "link": "post",
       "img": "img/photo/photo-1522771739844-6a9f6d5f14af.jpg"
     },

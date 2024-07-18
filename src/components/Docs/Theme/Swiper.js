@@ -368,7 +368,7 @@ export default () => {
 export default () => {
     "slides": [
         {
-            "title": "Modern, Well-Appointed Room",
+            "title": "Test, Well-Appointed Room",
             "location": "San Francisco",
             "type": "House",
             "link": "detail-rooms",

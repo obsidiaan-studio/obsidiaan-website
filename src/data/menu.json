@@ -58,6 +58,10 @@
     ]
   },
   {
+    "title": "Shop",
+    "link": "/shop"
+  },
+  {
     "title": "Contact",
     "link": "/contact"
   },

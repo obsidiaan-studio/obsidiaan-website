@@ -145,7 +145,7 @@ const Index = () => {
                 md="4"
                 className="d-md-flex align-items-center justify-content-end"
               >
-                <Link href={data.blogPosts.buttonLink}>
+                {/* <Link href={data.blogPosts.buttonLink}>
                   <a className="text-muted text-sm">
                     {data.blogPosts.button}
                     <FontAwesomeIcon
@@ -153,7 +153,7 @@ const Index = () => {
                       className="ms-2"
                     />
                   </a>
-                </Link>
+                </Link> */}
               </Col>
             </Row>
             <Row>

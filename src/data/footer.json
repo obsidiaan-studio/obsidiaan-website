@@ -27,45 +27,37 @@
         "lg": "4"
     },
     {
-        "title": "Rentals",
+        "title": "Technieken",
         "links": [
             {
-                "title": "Rooms",
+                "title": "Glas in lood",
                 "link": "/"
             },
             {
-                "title": "Map on top",
+                "title": "Tiffany",
                 "link": "/category-rooms"
             },
             {
-                "title": "Side map",
+                "title": "Fusen",
                 "link": "/category-2-rooms"
-            },
-            {
-                "title": "No map",
-                "link": "/category-3-rooms"
-            },
-            {
-                "title": "Room detail",
-                "link": "/detail-rooms"
             }
         ],
         "lg": "2",
         "md": "6"
     },
     {
-        "title": "Pages",
+        "title": "Portofolio",
         "links": [
             {
-                "title": "Comparison",
+                "title": "Glas in lood",
                 "link": "/compare"
             },
             {
-                "title": "Team",
+                "title": "Tiffany",
                 "link": "/team"
             },
             {
-                "title": "Contact",
+                "title": "Fusen",
                 "link": "/contact"
             }
         ],
@@ -73,12 +65,15 @@
         "md": "6"
     },
     {
-        "title": "Daily Offers & Discounts",
+        "title": "Contact",
         "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.",
         "contentBottomMargin": "3",
-        "form": {
-            "placeholder": "Your Email Address"
-        },
-        "lg": "4"
+        "links": [
+            {
+                "title": "Contact",
+                "link": "/contact"
+            }
+        ]
+        
     }
 ]

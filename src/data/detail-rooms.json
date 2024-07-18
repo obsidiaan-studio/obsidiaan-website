@@ -130,7 +130,7 @@
     "items": [
       {
         "properties": {
-          "name": "Modern, Well-Appointed Room",
+          "name": "Test, Well-Appointed Room",
           "subtitle": "Private room",
           "image": "photo-1484154218962-a197022b5858.jpg",
           "link": "detail-rooms",
@@ -202,7 +202,7 @@
       },
       {
         "properties": {
-          "name": "Modern, Well-Appointed Room",
+          "name": "test, Well-Appointed Room",
           "subtitle": "Private room",
           "image": "photo-1484154218962-a197022b5858.jpg",
           "link": "detail-rooms",

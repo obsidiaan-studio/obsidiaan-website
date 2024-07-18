@@ -81,151 +81,43 @@ const Contact = () => {
                 </p>
               </Col>
             )}
-            {data.callcenter && (
-              <Col md="4" className="text-center text-md-start mb-4 mb-md-0">
-                <div className="icon-rounded mb-4 bg-primary-light">
-                  <Icon icon="mail-1" className="w-2rem h-2rem text-primary" />
-                </div>
-                <h3 className="h5">{data.callcenter.title}</h3>
-                <p className="text-muted">{data.callcenter.content}</p>
-                <p className="text-muted">
-                  <strong>{data.callcenter.phone}</strong>
-                </p>
-              </Col>
-            )}
-            {data.electronicsupport && (
+            {data.mail && (
               <Col md="4" className="text-center text-md-start mb-4 mb-md-0">
                 <div className="icon-rounded mb-4 bg-primary-light">
                   <Icon
-                    icon="map-location-1"
+                    icon="mail-1"
                     className="w-2rem h-2rem text-primary"
                   />
                 </div>
-                <h3 className="h5">{data.electronicsupport.title}</h3>
-                <p className="text-muted">{data.electronicsupport.content}</p>
+                <h3 className="h5">{data.mail.title}</h3>
+                <p className="text-muted">{data.mail.content}</p>
                 <ul className="list-unstyled text-muted">
-                  {data.electronicsupport.emails.map((email) => (
+                  {data.mail.emails.map((email) => (
                     <li key={email}>{email}</li>
                   ))}
                 </ul>
               </Col>
             )}
-          </Row>
-        </Container>
-      </section>
-      <section className="py-6 bg-gray-100">
-        <Container>
-          <h2 className="h4 mb-5">Contact form</h2>
-          <Row>
-            <Col md="7" className="mb-5 mb-md-0">
-              <Form>
-                <div className="controls">
-                  <Row>
-                    <Col sm="6">
-                      <div className="mb-4">
-                        <Form.Label htmlFor="name">
-                          Your First Name *
-                        </Form.Label>
-                        <Form.Control
-                          type="text"
-                          name="name"
-                          id="name"
-                          placeholder="Enter your first name"
-                          required
-                        />
-                      </div>
-                    </Col>
-                    <Col sm="6">
-                      <div className="mb-4">
-                        <Form.Label htmlFor="surname">
-                          Your Last Name *
-                        </Form.Label>
-                        <Form.Control
-                          type="text"
-                          name="surname"
-                          id="surname"
-                          placeholder="Enter your last name"
-                          required
-                        />
-                      </div>
-                    </Col>
-                  </Row>
-                  <div className="mb-4">
-                    <Form.Label htmlFor="email">Your email *</Form.Label>
-                    <Form.Control
-                      type="email"
-                      name="email"
-                      id="email"
-                      placeholder="Enter your email"
-                      required
-                    />
-                  </div>
-                  <div className="mb-4">
-                    <Form.Label htmlFor="message">
-                      Your message for us *
-                    </Form.Label>
-                    <Form.Control
-                      type="textarea"
-                      rows="4"
-                      name="message"
-                      id="message"
-                      placeholder="Enter your message"
-                      required
-                    />
-                  </div>
-                  <Button type="submit" variant="outline-primary">
-                    Send message
-                  </Button>
+            {data.phone && (
+              <Col md="4" className="text-center text-md-start mb-4 mb-md-0">
+                <div className="icon-rounded mb-4 bg-primary-light">
+                  <Icon icon="call-1" className="w-2rem h-2rem text-primary" />
                 </div>
-              </Form>
-            </Col>
-            <Col md="5">
-              <div className="ps-lg-4">
-                {data.content && (
-                  <div dangerouslySetInnerHTML={{ __html: data.content }} />
-                )}
-                {data.social && (
-                  <div className="social">
-                    <ul className="list-inline">
-                      {data.social.map((icon) => {
-                        let socialIcon
-                        switch (icon.icon) {
-                          case "facebook":
-                            socialIcon = faFacebook
-                            break
-                          case "instagram":
-                            socialIcon = faInstagram
-                            break
-                          case "pinterest":
-                            socialIcon = faPinterest
-                            break
-                          case "vimeo":
-                            socialIcon = faVimeo
-                            break
-                          default:
-                            socialIcon = faTwitter
-                        }
-                        return (
-                          <li key={icon.icon} className="list-inline-item">
-                            <a href={icon.link} target="_blank">
-                              <FontAwesomeIcon icon={socialIcon} />
-                            </a>
-                          </li>
-                        )
-                      })}
-                    </ul>
-                  </div>
-                )}
-              </div>
-            </Col>
+                <h3 className="h5">{data.phone.title}</h3>
+                <p className="text-muted">{data.phone.content}</p>
+                <p className="text-muted">
+                  <strong>{data.phone.phone}</strong>
+                </p>
+              </Col>
+            )}
           </Row>
         </Container>
       </section>
       <div className="map-wrapper-300">
         <Map
           className="h-100"
-          center={[40.732346, -74.0014247]}
-          markerPosition={[40.732346, -74.0014247]}
+          center={[50.8960619, 5.7380380]}
+          markerPosition={[50.8960619, 5.7380380]}
           zoom={16}
         />
       </div>

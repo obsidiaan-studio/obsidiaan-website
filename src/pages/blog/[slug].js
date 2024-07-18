@@ -77,7 +77,7 @@ const Product = ({ postData }) => {
         <Container>
           <Row>
             <Col lg="10" xl="8" className="mx-auto">
-              <p className="py-3 mb-5 text-muted text-center fw-light d-flex align-items-center justify-content-center flex-wrap">
+              {/* <p className="py-3 mb-5 text-muted text-center fw-light d-flex align-items-center justify-content-center flex-wrap">
                 {postDummyData.authorLink && (
                   <Link href={postDummyData.authorLink}>
                     <a>
@@ -108,14 +108,14 @@ const Product = ({ postData }) => {
                   {postDummyData.comments && postDummyData.comments.length}{" "}
                   comments{" "}
                 </a>
-              </p>
+              </p> */}
               <p
                 className="lead mb-5"
                 dangerouslySetInnerHTML={{ __html: postDummyData.excerpt }}
               />
             </Col>
           </Row>
-          <Row>
+          {/* <Row>
             <Col xl="10" className="mx-auto mb-5">
               <Image
                 src="/content/img/photo/photo-1471189641895-16c58a695bcb.jpg"
@@ -222,7 +222,7 @@ const Product = ({ postData }) => {
                 </Collapse>
               </div>
             </Col>
-          </Row>
+          </Row> */}
         </Container>
       </section>
     </React.Fragment>

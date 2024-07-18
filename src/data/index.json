@@ -48,14 +48,14 @@
         ]
     },
     "jumbotron": {
-        "title": "Ready for your next holidays?",
-        "button": "Get started",
+        "title": "lorem ipsum dolor sit amet",
+        "button": "Zie alle werken",
         "link": "/category-rooms",
-        "img": "img/photo/photo-1497436072909-60f360e1d4b1.jpg"
+        "img": "img/photo/glasatelierclaire1.jpg"
     },
     "testimonials": {
-        "title": "Our dear customers said about us",
-        "subTitle": "Testimonials",
+        "title": "Wat klanten over mij zeggen",
+        "subTitle": "Reviews",
         "swiperItems": [
             {
                 "title": "Jessica Watson",
@@ -90,8 +90,8 @@
         ]
     },
     "blogPosts": {
-        "title": "From our travel blog",
-        "subTitle": "Stories from around the globe",
+        "title": "Mijn technieken",
+        "subTitle": "Lorem ipsum dolor sit amet",
         "button": "See all articles",
         "buttonLink": "/blog"
     }

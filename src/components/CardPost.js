@@ -25,25 +25,25 @@ const CardPost = (props) => {
         </a>
       </Link>
       <Card.Body>
-        <a
+        {/* <a
           href="#"
           className="text-uppercase text-muted text-sm letter-spacing-2"
         >
           {post.category}
-        </a>
+        </a> */}
         <h5 className="my-2">
           <Link href={`/blog/${post.slug}`}>
             <a className="text-dark">{post.title}</a>
           </Link>
         </h5>
-        <p className="text-gray-500 text-sm my-3">
+        {/* <p className="text-gray-500 text-sm my-3">
           <FontAwesomeIcon icon={faClock} className="me-2" />
           {post.date}
-        </p>
+        </p> */}
         <p className="my-2 text-muted text-sm">{post.content}</p>
         <Link href={`/blog/${post.slug}`} passHref>
           <Button className="ps-0" variant="link">
-            Read more <FontAwesomeIcon icon={faLongArrowAltRight} />
+            Lees meer <FontAwesomeIcon icon={faLongArrowAltRight} />
           </Button>
         </Link>
       </Card.Body>

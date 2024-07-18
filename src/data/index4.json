@@ -42,7 +42,7 @@
         "buttonLink": "/category-rooms",
         "swiper": [
             {
-                "title": "Modern, Well-Appointed Room",
+                "title": "Test, Well-Appointed Room",
                 "location": "San Francisco",
                 "type": "House",
                 "link": "/detail-rooms",
@@ -108,7 +108,7 @@
                 "price": "$65k"
             },
             {
-                "title": "Modern, Well-Appointed Room",
+                "title": "test, Well-Appointed Room",
                 "location": "San Francisco",
                 "type": "House",
                 "link": "/detail-rooms",
