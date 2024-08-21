@@ -1,25 +1,7 @@
 [
   {
     "title": "Home",
-    "dropdown": [
-      {
-        "title": "Rooms",
-        "link": "/"
-      },
-      {
-        "title": "Restaurant",
-        "link": "/index-2"
-      },
-      {
-        "title": "Travel",
-        "link": "/index-3"
-      },
-      {
-        "title": "Real estate",
-        "link": "/index-4",
-        "new": true
-      }
-    ]
+    "link": "/"
   },
   {
     "title": "Technieken",
@@ -31,7 +13,7 @@
       },
       {
         "title": "Tiffany",
-        "link": "/tehcnieken/tiffany"
+        "link": "/technieken/tiffany"
       },
       {
         "title": "Fussen",
