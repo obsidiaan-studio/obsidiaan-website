@@ -8,12 +8,11 @@ import SearchBar from "../components/SearchBar"
 import LastMinute from "../components/LastMinute"
 import Guides from "../components/Guides"
 import Instagram from "../components/Instagram"
-import CardPost from "../components/CardPost"
+import TechniekCard from "../components/TechniekCard"
 
 import SwiperTestimonial from "../components/SwiperTestimonial"
 
 import data from "../data/index.json"
-import blog from "../data/blog.json"
 import Icon from "../components/Icon"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons"
@@ -131,7 +130,6 @@ const Index = () => {
           </Container>
         </section>
       )}
-      {blog.posts && (
         <section className="py-6 bg-gray-100">
           <Container>
             <Row className="mb-5">
@@ -141,40 +139,14 @@ const Index = () => {
                 </p>
                 <h2>{data.blogPosts.title}</h2>
               </Col>
-              <Col
-                md="4"
-                className="d-md-flex align-items-center justify-content-end"
-              >
-                {/* <Link href={data.blogPosts.buttonLink}>
-                  <a className="text-muted text-sm">
-                    {data.blogPosts.button}
-                    <FontAwesomeIcon
-                      icon={faAngleDoubleRight}
-                      className="ms-2"
-                    />
-                  </a>
-                </Link> */}
-              </Col>
             </Row>
             <Row>
-              {blog.posts.map((post, index) => {
-                if (index <= 2)
-                  return (
-                    <Col
-                      key={post.title}
-                      lg="4"
-                      sm="6"
-                      className="mb-4 hover-animate"
-                    >
-                      <CardPost data={post} />
-                    </Col>
-                  )
-              })}
+              <Col className="mb-4">
+                <TechniekCard/>
+              </Col>
             </Row>
           </Container>
         </section>
-      )}
-
       <Instagram />
     </React.Fragment>
   )
