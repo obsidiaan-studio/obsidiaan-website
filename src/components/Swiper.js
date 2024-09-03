@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 
 import CardRestaurant from "./CardRestaurant"
-import CardRoom from "./CardRoom"
+import CardShop from "./CardShop"
 import CardPoster from "./CardPoster"
 import CardProperty from "./CardProperty"
 import { Navigation, Pagination, Autoplay, EffectFade } from "swiper"
@@ -86,7 +86,7 @@ const SwiperComponent = (props) => {
               <SwiperSlide key={index} className="h-auto px-2">
                 {props.cards && (
                   <div className="w-100 h-100 hover-animate">
-                    <CardRoom data={slide.properties} />
+                    <CardShop data={slide.properties} />
                   </div>
                 )}
                 {props.propertyCards && (

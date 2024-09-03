@@ -20,7 +20,7 @@ import Nouislider from "nouislider-react"
 import Pagination from "../components/Pagination"
 
 import ResultsTopBar from "../components/ResultsTopBar"
-import CardRoom from "../components/CardRoom"
+import CardRoom from "../components/CardShop"
 
 import data from "../data/category-3-rooms.json"
 import geoJSON from "../data/rooms-geojson.json"

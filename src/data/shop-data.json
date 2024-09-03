@@ -1,0 +1,60 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "De denker",
+          "category": "Glas in lood",
+          "price": 80,
+          "image": "glasstudiogielis-dedenker.jpg"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "De denker",
+          "category": "Glas in lood",
+          "price": 80,
+          "image": "glasstudiogielis-dedenker.jpg"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "De denker",
+          "category": "Glas in lood",
+          "price": 80,
+          "image": "glasstudiogielis-dedenker.jpg"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "De denker",
+          "category": "Glas in lood",
+          "price": 80,
+          "image": "glasstudiogielis-dedenker.jpg"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "De denker",
+          "category": "Glas in lood",
+          "price": 80,
+          "image": "glasstudiogielis-dedenker.jpg"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "De denker",
+          "category": "Glas in lood",
+          "price": 80,
+          "image": "glasstudiogielis-dedenker.jpg"
+        }
+      }
+    ]
+  }
+  
