@@ -39,12 +39,12 @@ const NavbarComponent = () => {
         <Navbar expand="lg" variant="light" className="shadow mb-3">
           <Container fluid>
             <Navbar.Brand href="/" className="text-uppercase fw-bold">
-              <span>Directory </span>
+              <span>Obsidiaan </span>
             </Navbar.Brand>
             <Navbar.Toggle aria-label="Toggle navigation">
               <FontAwesomeIcon icon={faBars} />
             </Navbar.Toggle>
-            <Navbar.Collapse>
+            <Navbar.Collapse> 
               <Nav className="me-auto">
                 <Nav.Item className="active">
                   <Nav.Link href="#">

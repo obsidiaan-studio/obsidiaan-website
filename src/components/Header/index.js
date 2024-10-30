@@ -67,17 +67,26 @@ const Header = (props) => {
           <div className="d-flex align-items-center">
             {/* NAVBAR BRAND */}
             <Link href="/" passHref>
-              <Navbar.Brand className="py-1">
+              <Navbar.Brand className="d-flex align-items-center py-1">
                 <img
-                  src="/content/svg/logo.svg"
-                  width="138"
-                  height="31"
-                  alt="Directory logo"
+                  src="/img/Obsidiaan_logo_drawing_v1.2_thick2.png"
+                  height="48"
+                  alt="Obsidiaan logo"
                 />
+                <p className="mb-0 ms-2">
+                  Obsidiaan
+                </p>
               </Navbar.Brand>
             </Link>
             {/* END NAVBAR BRAND */}
           </div>
+
+    {/* NAVBAR TOGGLE */}
+    <Navbar.Toggle
+      aria-controls="navbar-main-menu"
+      onClick={() => setCollapsed(!collapsed)}
+    />
+
 
           {/* NAVBAR TOGGLE */}
           <Navbar.Toggle

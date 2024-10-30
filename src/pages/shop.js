@@ -1,31 +1,21 @@
 import React, { useEffect, useRef, useState } from "react";
 
-import UseWindowSize from "../hooks/UseWindowSize";
+import Head from "next/head";
 
-import { DayPicker } from "react-day-picker";
 import "react-day-picker/dist/style.css";
-import Select from "react-select";
 
 import {
   Container,
   Row,
   Col,
-  Form,
-  Collapse,
-  Button,
-  Overlay,
 } from "react-bootstrap";
 
-import Nouislider from "nouislider-react";
 import Pagination from "../components/Pagination";
 
-import ResultsTopBar from "../components/ResultsTopBar";
 import CardShop from "../components/CardShop";
 
 import data from "../data/category-3-rooms.json";
 import geoJSON from "../data/shop-data.json"; // Changed geoJSON source
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight, faSearch } from "@fortawesome/free-solid-svg-icons";
 
 export async function getStaticProps() {
   return {
@@ -43,6 +33,14 @@ export async function getStaticProps() {
 const Shop = () => {
   return (
     <React.Fragment>
+      <Head>
+        <script
+          src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+          integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D"
+          crossOrigin="anonymous"
+          async
+        ></script>
+      </Head>
       <Container fluid className="pt-5 pb-3 border-bottom px-lg-5">
         <Row>
           <Col xl="8">
@@ -52,28 +50,25 @@ const Shop = () => {
         </Row>
       </Container>
       <Container fluid className="py-5 px-lg-5">
-        <Row>
-          <Col>
-            <ResultsTopBar sortBy={data.sortby} />
-            <Row>
-              {geoJSON.features &&
-                geoJSON.features.map((glass) => (
-                  <Col
-                    key={glass.properties.name}
-                    sm="6"
-                    xl="4"
-                    className="mb-5 hover-animate"
-                  >
-                    <CardShop
-                      data={glass.properties}
-                      sizes="(max-width:576px) 100vw, (max-width:991px) 50vw, calc(25vw - 60px)"
-                    />
-                  </Col>
-                ))}
-            </Row>
-            <Pagination />
-          </Col>
+        <Row
+          data-masonry='{"percentPosition": true }' // Masonry data attribute for integration
+        >
+          {geoJSON.features &&
+            geoJSON.features.map((glass) => (
+              <Col
+                key={glass.properties.name}
+                sm="6"
+                xl="4"
+                className="mb-5 hover-animate masonry-item"
+              >
+                <CardShop
+                  data={glass.properties}
+                  sizes="(max-width:576px) 100vw, (max-width:991px) 50vw, calc(25vw - 60px)"
+                />
+              </Col>
+            ))}
         </Row>
+        <Pagination />
       </Container>
     </React.Fragment>
   );

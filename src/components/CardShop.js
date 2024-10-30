@@ -30,14 +30,6 @@ const CardShop = (props) => {
             aria-label={`Read more about ${data.title}`}
           />
         </Link>
-        <div className="card-img-overlay-top text-end">
-          <a
-            className="card-fav-icon position-relative z-index-40"
-            href="#"
-            aria-label={`Add ${data.title} to wishlist`}
-          >
-          </a>
-        </div>
       </div>
       <Card.Body className="d-flex align-items-center">
         <div className="w-100">
