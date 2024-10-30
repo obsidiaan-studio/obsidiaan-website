@@ -2,7 +2,7 @@
     "title": "Mijn werken",
     "subTitle": "Lorem ipsum dolor sit amet",
     "button": "Zie alle werken",
-    "buttonLink": "/Shop",
+    "buttonLink": "/portfolio/glas-in-lood",
     "swiperItems": [
         {
             "title": "De Denker",

@@ -10,13 +10,6 @@ const CardTestimonial = (props) => {
   return (
     <Card className="testimonial rounded-3 shadow border-0">
       <div className="testimonial-avatar">
-        <Avatar
-          image={`/content/${data.avatar}`}
-          size="lg"
-          border
-          className="mt-3 mb-n3"
-          alt="..."
-        />
       </div>
       <div className="text">
         <div className="testimonial-quote">

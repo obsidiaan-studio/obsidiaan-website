@@ -4,18 +4,14 @@ import Image from "../components/CustomImage"
 import { Container, Row, Col, Button } from "react-bootstrap"
 
 import Swiper from "../components/Swiper"
-import SearchBar from "../components/SearchBar"
 import LastMinute from "../components/LastMinute"
 import Guides from "../components/Guides"
-import Instagram from "../components/Instagram"
 import TechniekCard from "../components/TechniekCard"
 
 import SwiperTestimonial from "../components/SwiperTestimonial"
 
 import data from "../data/index.json"
 import Icon from "../components/Icon"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons"
 
 export async function getStaticProps() {
   return {
@@ -147,7 +143,6 @@ const Index = () => {
             </Row>
           </Container>
         </section>
-      <Instagram />
     </React.Fragment>
   )
 }

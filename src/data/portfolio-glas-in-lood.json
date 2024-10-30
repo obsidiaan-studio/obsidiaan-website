@@ -1,0 +1,22 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Glas in Lood Piece 1",
+          "category": "Fussen",
+          "image": "obsidiaan5.jpg"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Glas in Lood Piece 2",
+          "category": "Fussen",
+          "image": "glasstudiogielis-vuurtoren.jpg"
+        }
+      }
+    ]
+  }
+  
