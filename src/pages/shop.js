@@ -15,7 +15,7 @@ import Pagination from "../components/Pagination";
 import CardShop from "../components/CardShop";
 
 import data from "../data/category-3-rooms.json";
-import geoJSON from "../data/shop-data.json"; // Changed geoJSON source
+import geoJSON from "../data/shop-data.json";
 
 export async function getStaticProps() {
   return {
