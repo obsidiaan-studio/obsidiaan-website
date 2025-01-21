@@ -22,7 +22,7 @@ import Pagination from "../components/Pagination"
 import Map from "../components/Map"
 
 import ResultsTopBar from "../components/ResultsTopBar"
-import CardRoom from "../components/CardRoom"
+import CardShop from "../components/CardShop"
 
 import data from "../data/category-2-rooms.json"
 import geoJSON from "../data/rooms-geojson.json"
@@ -467,7 +467,7 @@ const Category2Rooms = () => {
                     onMouseEnter={() => onCardEnter(room.properties.id)}
                     onMouseLeave={() => onCardLeave()}
                   >
-                    <CardRoom
+                    <CardShop
                       data={room.properties}
                       sizes="(max-width:576px) 100vw, (max-width:991px) 50vw, calc(25vw - 60px)"
                     />
