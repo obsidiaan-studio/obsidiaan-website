@@ -91,30 +91,6 @@ const DetailRooms = () => {
           </Row>
         </Container>
       </section>
-
-      {data.similar && (
-        <section className="py-6 bg-gray-100">
-          <Container>
-            <h5 className="mb-0">{data.similar.title}</h5>
-            <p className="subtitle text-sm text-primary mb-4">
-              {data.similar.subtitle}
-            </p>
-            <Swiper
-              className="swiper-container-mx-negative items-slider pb-5"
-              perView={1}
-              spaceBetween={20}
-              loop={true}
-              roundLengths={true}
-              md={2}
-              lg={3}
-              xl={4}
-              data={data.similar.items}
-              cards
-              pagination
-            />
-          </Container>
-        </section>
-      )}
     </React.Fragment>
   )
 }

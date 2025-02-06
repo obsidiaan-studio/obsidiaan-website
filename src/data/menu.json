@@ -22,20 +22,20 @@
     ]
   },
   {
-    "title": "Portofolio",
-    "link": "/portofolio",
+    "title": "Portfolio",
+    "link": "/portfolio",
     "dropdown": [
       {
         "title": "Glas in lood",
-        "link": "/portofolio/glas-in-lood"
+        "link": "/portfolio/glas-in-lood"
       },
       {
         "title": "Tiffany",
-        "link": "/portofolio/tiffany"
+        "link": "/portfolio/tiffany"
       },
       {
         "title": "Fussen",
-        "link": "/portofolio/fussen"
+        "link": "/portfolio/fussen"
       }
     ]
   },
