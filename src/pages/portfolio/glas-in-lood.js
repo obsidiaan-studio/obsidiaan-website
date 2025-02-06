@@ -3,6 +3,8 @@ import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
 import CardPortfolio from "../../components/CardPortfolio"
 import portfolioData from "../../data/portfolio-glas-in-lood.json" 
+import Script from "next/script";
+
 
 export async function getStaticProps() {
   return {
@@ -20,6 +22,12 @@ export async function getStaticProps() {
 const Fussen = () => {
   return (
     <React.Fragment>
+        <Script
+          src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+          integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D"
+          crossOrigin="anonymous"
+          async
+        ></Script>
       <Container fluid className="pt-5 pb-3 border-bottom px-lg-5">
         <Row>
           <Col xl="8">

@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
+import LoadMasonry from "../components/LoadMasonry"; // Import Masonry loader
 
-import Head from "next/head";
+import Script from "next/script";
 
 import "react-day-picker/dist/style.css";
 
@@ -33,14 +34,7 @@ export async function getStaticProps() {
 const Shop = () => {
   return (
     <React.Fragment>
-      <Head>
-        <script
-          src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
-          integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D"
-          crossOrigin="anonymous"
-          async
-        ></script>
-      </Head>
+      <LoadMasonry />
       <Container fluid className="pt-5 pb-3 border-bottom px-lg-5">
         <Row>
           <Col xl="8">
