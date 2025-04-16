@@ -1,18 +1,10 @@
-import React, { useEffect, useRef, useState } from "react";
-import LoadMasonry from "../components/LoadMasonry"; // Import Masonry loader
-
-import Script from "next/script";
+import React from "react";
+import Masonry from "react-masonry-css";
 
 import "react-day-picker/dist/style.css";
-
-import {
-  Container,
-  Row,
-  Col,
-} from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 import Pagination from "../components/Pagination";
-
 import CardShop from "../components/CardShop";
 
 import data from "../data/category-3-rooms.json";
@@ -31,39 +23,57 @@ export async function getStaticProps() {
   };
 }
 
+const breakpointColumnsObj = {
+  default: 3,
+  992: 2,
+  576: 1,
+};
+
 const Shop = () => {
   return (
     <React.Fragment>
-      <LoadMasonry />
       <Container fluid className="pt-5 pb-3 border-bottom px-lg-5">
         <Row>
           <Col xl="8">
-            <h1 className="mb-4">{data.title && data.title}</h1>
-            <p className="lead text-muted">{data.content && data.content}</p>
+            <h1 className="mb-4">{data.title}</h1>
+            <p className="lead text-muted">{data.content}</p>
           </Col>
         </Row>
       </Container>
+
       <Container fluid className="py-5 px-lg-5">
-        <Row
-          data-masonry='{"percentPosition": true }' // Masonry data attribute for integration
+        <Masonry
+          breakpointCols={breakpointColumnsObj}
+          className="my-masonry-grid"
+          columnClassName="my-masonry-grid_column"
         >
-          {geoJSON.features &&
-            geoJSON.features.map((glass) => (
-              <Col
-                key={glass.properties.name}
-                sm="6"
-                xl="4"
-                className="mb-5 hover-animate masonry-item"
-              >
-                <CardShop
-                  data={glass.properties}
-                  sizes="(max-width:576px) 100vw, (max-width:991px) 50vw, calc(25vw - 60px)"
-                />
-              </Col>
-            ))}
-        </Row>
+          {geoJSON.features?.map((glass) => (
+            <div key={glass.properties.name} className="hover-animate">
+              <CardShop
+                data={glass.properties}
+                sizes="(max-width:576px) 100vw, (max-width:991px) 50vw, calc(25vw - 60px)"
+              />
+            </div>
+          ))}
+        </Masonry>
         <Pagination />
       </Container>
+
+      {/* Inline global styles for masonry */}
+      <style jsx global>{`
+        .my-masonry-grid {
+          display: flex;
+          margin-left: -24px; /* gutter size offset */
+          width: auto;
+        }
+        .my-masonry-grid_column {
+          padding-left: 24px; /* gutter size */
+          background-clip: padding-box;
+        }
+        .my-masonry-grid_column > div {
+          margin-bottom: 24px;
+        }
+      `}</style>
     </React.Fragment>
   );
 };

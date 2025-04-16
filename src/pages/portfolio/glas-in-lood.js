@@ -1,10 +1,8 @@
-// fussen.js
-import React from "react"
-import { Container, Row, Col } from "react-bootstrap"
-import CardPortfolio from "../../components/CardPortfolio"
-import portfolioData from "../../data/portfolio-glas-in-lood.json" 
-import Script from "next/script";
-
+import React from "react";
+import Masonry from "react-masonry-css";
+import { Container, Row, Col } from "react-bootstrap";
+import CardPortfolio from "../../components/CardPortfolio";
+import portfolioData from "../../data/portfolio-glas-in-lood.json";
 
 export async function getStaticProps() {
   return {
@@ -14,20 +12,20 @@ export async function getStaticProps() {
         classes: "shadow",
         color: "white",
       },
-      title: "Fussen",
+      title: "Glas in Lood",
     },
-  }
+  };
 }
 
-const Fussen = () => {
+const breakpointColumnsObj = {
+  default: 3,
+  992: 2,
+  576: 1,
+};
+
+const GlasInLood = () => {
   return (
     <React.Fragment>
-        <Script
-          src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
-          integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D"
-          crossOrigin="anonymous"
-          async
-        ></Script>
       <Container fluid className="pt-5 pb-3 border-bottom px-lg-5">
         <Row>
           <Col xl="8">
@@ -36,28 +34,40 @@ const Fussen = () => {
           </Col>
         </Row>
       </Container>
-      <Container fluid className="py-5 px-lg-5">
-        <Row
-          data-masonry='{"percentPosition": true }'
-        >
-          {portfolioData.features &&
-            portfolioData.features.map((item) => (
-              <Col
-                key={item.properties.name}
-                sm="6"
-                xl="4"
-                className="mb-5 hover-animate masonry-item"
-              >
-                <CardPortfolio
-                  data={item.properties}
-                  sizes="(max-width:576px) 100vw, (max-width:991px) 50vw, calc(25vw - 60px)"
-                />
-              </Col>
-            ))}
-        </Row>
-      </Container>
-    </React.Fragment>
-  )
-}
 
-export default Fussen
+      <Container fluid className="py-5 px-lg-5">
+        <Masonry
+          breakpointCols={breakpointColumnsObj}
+          className="my-masonry-grid"
+          columnClassName="my-masonry-grid_column"
+        >
+          {portfolioData.features?.map((item) => (
+            <div key={item.properties.name} className="hover-animate">
+              <CardPortfolio
+                data={item.properties}
+                sizes="(max-width:576px) 100vw, (max-width:991px) 50vw, calc(25vw - 60px)"
+              />
+            </div>
+          ))}
+        </Masonry>
+      </Container>
+
+      <style jsx global>{`
+        .my-masonry-grid {
+          display: flex;
+          margin-left: -24px;
+          width: auto;
+        }
+        .my-masonry-grid_column {
+          padding-left: 24px;
+          background-clip: padding-box;
+        }
+        .my-masonry-grid_column > div {
+          margin-bottom: 24px;
+        }
+      `}</style>
+    </React.Fragment>
+  );
+};
+
+export default GlasInLood;
