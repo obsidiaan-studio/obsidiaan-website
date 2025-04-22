@@ -1,12 +1,16 @@
-import React from "react"
-import Link from "next/link"
+import React from "react";
+import Link from "next/link";
 
-import { Card } from "react-bootstrap"
+import { Card } from "react-bootstrap";
 
-import Image from "./CustomImage"
+import Image from "./CustomImage";
 
 const CardShop = (props) => {
-  const data = props.data
+  const data = props.data;
+
+  // Generate slug from the product name
+  const slug = encodeURIComponent(data.name);
+
   return (
     <Card className="h-100 border-0 shadow">
       <div className="card-img-top overflow-hidden gradient-overlay">
@@ -24,17 +28,17 @@ const CardShop = (props) => {
               : "(max-width:576px) 100vw, (max-width:991px) 50vw, (max-width:1149px) 30vw, 280px"
           }
         />
-        <Link href="/detail-rooms">
+        <Link href={`/shop/${slug}`}>
           <a
             className="tile-link"
-            aria-label={`Read more about ${data.title}`}
+            aria-label={`Read more about ${data.name}`}
           />
         </Link>
       </div>
       <Card.Body className="d-flex align-items-center">
         <div className="w-100">
           <Card.Title as="h6">
-            <Link href="/detail-rooms">
+            <Link href={`/shop/${slug}`}>
               <a className="text-decoration-none text-dark">{data.name}</a>
             </Link>
           </Card.Title>
@@ -44,13 +48,13 @@ const CardShop = (props) => {
             </p>
           </Card.Subtitle>
           <Card.Text className="text-muted">
-            <span className="h4 text-primary">€{data.price}</span>
+            <span className="h4 text-primary">&euro;{data.price}</span>
             &nbsp;
           </Card.Text>
         </div>
       </Card.Body>
     </Card>
-  )
-}
+  );
+};
 
-export default CardShop
+export default CardShop;

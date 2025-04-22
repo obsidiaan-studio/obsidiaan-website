@@ -23,12 +23,6 @@ const CardPortfolio = (props) => {
               : "(max-width:576px) 100vw, (max-width:991px) 50vw, (max-width:1149px) 30vw, 280px"
           }
         />
-        <Link href="/detail-portfolio">
-          <a
-            className="tile-link"
-            aria-label={`Read more about ${data.name}`}
-          />
-        </Link>
       </div>
       <Card.Body className="d-flex align-items-center">
         <div className="w-100">
