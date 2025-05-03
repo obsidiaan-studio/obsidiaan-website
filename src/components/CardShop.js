@@ -47,10 +47,6 @@ const CardShop = (props) => {
               {data.category}
             </p>
           </Card.Subtitle>
-          <Card.Text className="text-muted">
-            <span className="h4 text-primary">&euro;{data.price}</span>
-            &nbsp;
-          </Card.Text>
         </div>
       </Card.Body>
     </Card>

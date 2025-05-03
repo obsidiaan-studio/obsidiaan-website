@@ -8,14 +8,6 @@ import data from "../data/contact.json"
 import Image from "../components/CustomImage"
 import Icon from "../components/Icon"
 import Map from "../components/Map"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {
-  faFacebook,
-  faInstagram,
-  faPinterest,
-  faTwitter,
-  faVimeo,
-} from "@fortawesome/free-brands-svg-icons"
 
 export async function getStaticProps() {
   return {
@@ -93,7 +85,7 @@ const Contact = () => {
                 <p className="text-muted">{data.mail.content}</p>
                 <ul className="list-unstyled text-muted">
                   {data.mail.emails.map((email) => (
-                    <li key={email}>{email}</li>
+                    <strong><li key={email}>{email}</li></strong>
                   ))}
                 </ul>
               </Col>
@@ -101,7 +93,7 @@ const Contact = () => {
             {data.phone && (
               <Col md="4" className="text-center text-md-start mb-4 mb-md-0">
                 <div className="icon-rounded mb-4 bg-primary-light">
-                  <Icon icon="call-1" className="w-2rem h-2rem text-primary" />
+                  <Icon icon="telephone-operator-1" className="w-2rem h-2rem text-primary" />
                 </div>
                 <h3 className="h5">{data.phone.title}</h3>
                 <p className="text-muted">{data.phone.content}</p>

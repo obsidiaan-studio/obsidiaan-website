@@ -142,48 +142,8 @@ const Footer = () => {
           <Row className="align-items-center">
             <Col md="6" className="text-center text-md-start">
               <p className="text-sm mb-md-0">
-                © 2024 Obsidiaan. All rights reserved.
+                &copy; 2025 Obsidiaan. All rights reserved.
               </p>
-            </Col>
-            <Col md="6">
-              <ul className="list-inline mb-0 mt-2 mt-md-0 text-center text-md-end">
-                <li className="list-inline-item">
-                  <img
-                    width="32"
-                    height="32"
-                    src="/content/svg/visa.svg"
-                    alt="..."
-                    className="w-2rem"
-                  />
-                </li>
-                <li className="list-inline-item">
-                  <img
-                    src="/content/svg/mastercard.svg"
-                    width="32"
-                    height="32"
-                    alt="..."
-                    className="w-2rem"
-                  />
-                </li>
-                <li className="list-inline-item">
-                  <img
-                    src="/content/svg/paypal.svg"
-                    width="32"
-                    height="32"
-                    alt="..."
-                    className="w-2rem"
-                  />
-                </li>
-                <li className="list-inline-item">
-                  <img
-                    src="/content/svg/western-union.svg"
-                    width="32"
-                    height="32"
-                    alt="..."
-                    className="w-2rem"
-                  />
-                </li>
-              </ul>
             </Col>
           </Row>
         </Container>

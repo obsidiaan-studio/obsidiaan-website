@@ -107,13 +107,13 @@ const Index = () => {
                 {data.jumbotron.title}
               </h3>
               <Link href={data.jumbotron.link} passHref>
-                <Button variant="light">Get started</Button>
+                <Button variant="light">Over mij</Button>
               </Link>
             </div>
           </Container>
         </section>
       )}
-      {data.testimonials && (
+      {/* {data.testimonials && (
         <section className="py-7">
           <Container>
             <div className="text-center">
@@ -125,7 +125,7 @@ const Index = () => {
             <SwiperTestimonial data={data.testimonials.swiperItems} />
           </Container>
         </section>
-      )}
+      )} */}
         <section className="py-6 bg-gray-100">
           <Container>
             <Row className="mb-5">

@@ -90,9 +90,6 @@ const ProductPage = ({ product }) => {
                   <strong>Categorie:</strong> {product.category || "N/A"}
                 </p>
                 <p>
-                  <strong>Prijs: </strong><span className="text-primary">&euro;{product.price || "N/A"}</span>
-                </p>
-                <p>
                   <strong>Ge&iuml;nteresseerd?</strong> <br/> Ga naar onze{" "}
                   <a href="/contact">contact pagina</a> om een werk te kopen.
                 </p>

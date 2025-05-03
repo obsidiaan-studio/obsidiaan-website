@@ -1,12 +1,12 @@
 {
     "title": "Hoe kan ik je helpen?",
     "subtitle": "Contact",
-    "img": "photo-1522143049013-2519756a52d4.jpg",
+    "img": "obsidiaanBanner.jpg",
     "address": {
         "title": "Addres",
         "row1": "Prinses Christinalaan 4",
         "row2": "Bunde, 6241EP",
-        "row3": "Limburg, <strong>Nederland</strong>"
+        "row3": "Limburg, Nederland"
     },
     "mail": {
         "title": "Mail",

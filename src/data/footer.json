@@ -1,28 +1,8 @@
 [
     {
-        "title": "Directory",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+        "title": "Obsidiaan",
+        "content": "Stijlvolle glaskunst geïnspireerd op eeuwenoud vakmanschap",
         "social": [
-            {
-                "title": "twitter",
-                "link": "#"
-            },
-            {
-                "title": "facebook",
-                "link": "#"
-            },
-            {
-                "title": "instagram",
-                "link": "#"
-            },
-            {
-                "title": "pinterest",
-                "link": "#"
-            },
-            {
-                "title": "vimeo",
-                "link": "#"
-            }
         ],
         "lg": "4"
     },
@@ -65,10 +45,13 @@
         "md": "6"
     },
     {
-        "title": "Contact",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.",
+        "title": "Over mij",
         "contentBottomMargin": "3",
         "links": [
+            {
+                "title": "Over mij",
+                "link": "/over-mij"
+            },
             {
                 "title": "Contact",
                 "link": "/contact"

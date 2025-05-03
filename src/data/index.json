@@ -5,8 +5,7 @@
     },
     "swiperPoster": "photo-1501621965065-c6e1cf6b53e2-lowres.jpg",
     "swiperImages": [
-        "glasstudiogielis-banner.png",
-        "glasatelierclaire1.jpg"
+        "obsidiaanBanner.jpg"
     ],
     "searchOptions": [
         {
@@ -27,8 +26,8 @@
         }
     ],
     "topBlocks": {
-        "title": "lorem ipsum dolor sit amet",
-        "subTitle": "consectetur adipiscing elit",
+        "title": "Welkom bij glasstudio Obsidiaan",
+        "subTitle": "\"stijlvolle glaskunst geïnspireerd op eeuwenoud vakmanschap.\"",
         "blocks": [
             {
                 "title": "sed do eiusmod",
@@ -48,7 +47,7 @@
         ]
     },
     "jumbotron": {
-        "title": "lorem ipsum dolor sit amet",
+        "title": "Geintereseerd in mijn verhaal?",
         "button": "Zie alle werken",
         "link": "/category-rooms",
         "img": "img/photo/glasatelierclaire1.jpg"
