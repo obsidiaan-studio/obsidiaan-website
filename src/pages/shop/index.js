@@ -57,7 +57,6 @@ const Shop = () => {
             </div>
           ))}
         </Masonry>
-        <Pagination />
       </Container>
 
       {/* Inline global styles for masonry */}

@@ -5,33 +5,27 @@
     "buttonLink": "/portfolio/glas-in-lood",
     "swiperItems": [
         {
-            "title": "De Denker",
-            "subtitle": "Glas in lood",
-            "img": "img/photo/glasstudiogielis-dedenker.jpg",
+            "title": "Glas in lood",
+            "subtitle": "",
+            "img": "img/photo/obsidiaan3.jpg",
             "link": "/category-2-rooms"
         },
         {
-            "title": "De Vuurtoren",
-            "subtitle": "Glas in lood",
-            "img": "img/photo/glasstudiogielis-vuurtoren.jpg",
+            "title": "Glas in lood",
+            "subtitle": "",
+            "img": "img/photo/obsidiaan5.jpg",
             "link": "/category-2-rooms"
         },
         {
-            "title": "Groen & rood",
-            "subtitle": "Glas in lood",
-            "img": "img/photo/studioglasrijk-klassiek1.jpg",
+            "title": "Glas in lood",
+            "subtitle": "",
+            "img": "img/photo/obsidiaan2.jpg",
             "link": "/category-2-rooms"
         },
         {
-            "title": "Groen & geel",
-            "subtitle": "Glas in lood",
-            "img": "img/photo/studioglasrijk-klassiek2.jpg",
-            "link": "/category-2-rooms"
-        },
-        {
-            "title": "Smiley schaal",
-            "subtitle": "Fusing",
-            "img": "img/photo/studioglasrijk-fusing1.jpg",
+            "title": "Glas in lood",
+            "subtitle": "",
+            "img": "img/photo/obsidiaan8.jpg",
             "link": "/category-2-rooms"
         }
     ]

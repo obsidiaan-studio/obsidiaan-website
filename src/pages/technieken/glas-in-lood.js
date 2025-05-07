@@ -2,8 +2,11 @@ import React from "react"
 import Link from "next/link"
 import { Container, Row, Col, Breadcrumb } from "react-bootstrap"
 
+import TechniekCard from "../../components/TechniekCard"
 import data from "../../data/glas-in-lood.json"
 import Image from "../../components/CustomImage"
+import data2 from "../../data/index.json" 
+
 
 export async function getStaticProps() {
   return {
@@ -107,6 +110,23 @@ const GlasInLood = () => {
               </Col>
             </Row>
           )}
+        </Container>
+      </section>
+      <section className="py-6 bg-gray-100">
+        <Container>
+          <Row className="mb-5">
+            <Col md="8">
+              <p className="subtitle text-secondary">
+                {data2.blogPosts.subTitle}
+              </p>
+              <h2>{data2.blogPosts.title}</h2>
+            </Col>
+          </Row>
+          <Row>
+            <Col className="mb-4">
+              <TechniekCard/>
+            </Col>
+          </Row>
         </Container>
       </section>
     </React.Fragment>

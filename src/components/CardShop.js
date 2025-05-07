@@ -39,14 +39,9 @@ const CardShop = (props) => {
         <div className="w-100">
           <Card.Title as="h6">
             <Link href={`/shop/${slug}`}>
-              <a className="text-decoration-none text-dark">{data.name}</a>
+              <a className="text-decoration-none text-dark">{data.category}</a>
             </Link>
           </Card.Title>
-          <Card.Subtitle className="d-flex mb-3" as="div">
-            <p className="flex-grow-1 mb-0 text-muted text-sm">
-              {data.category}
-            </p>
-          </Card.Subtitle>
         </div>
       </Card.Body>
     </Card>
