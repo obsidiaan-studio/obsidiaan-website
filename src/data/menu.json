@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Home",
+    "link": "/"
+  },
+  {
+    "title": "Technieken",
+    "link": "/technieken",
+    "dropdown": [
+      {
+        "title": "Glas in lood",
+        "link": "/technieken/glas-in-lood"
+      },
+      {
+        "title": "Tiffany",
+        "link": "/technieken/tiffany"
+      },
+      {
+        "title": "Fussen",
+        "link": "/technieken/fussen"
+      }
+    ]
+  },
+  {
+    "title": "Portfolio",
+    "link": "/portfolio",
+    "dropdown": [
+      {
+        "title": "Glas in lood",
+        "link": "/portfolio/glas-in-lood"
+      },
+      {
+        "title": "Tiffany",
+        "link": "/portfolio/tiffany"
+      },
+      {
+        "title": "Fussen",
+        "link": "/portfolio/fussen"
+      }
+    ]
+  },
+  {
+    "title": "Shop",
+    "link": "/shop"
+  },
+  {
+    "title": "Over mij",
+    "link": "/over-mij"
+  },
+  {
+    "title": "Contact",
+    "link": "/contact"
+  }
+]

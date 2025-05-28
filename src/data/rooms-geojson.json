@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.99967, 40.73723]
+      },
+      "properties": {
+        "id": "59c0c8e33b1527bfe2abaf92",
+        "index": 0,
+        "isActive": true,
+        "logo": "http://placehold.it/32x32",
+        "image": "glasstudiogielis-dedenker.jpg",
+        "link": "/detail-rooms",
+        "url": "#",
+        "name": "",
+        "subtitle": "Glas in lood",
+        "stars": 5,
+        "price": 80,
+        "tags": ["et", "cupidatat"]
+      }
+    }
+  ]
+}

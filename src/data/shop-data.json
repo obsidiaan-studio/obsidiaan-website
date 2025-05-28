@@ -1,0 +1,87 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "",
+          "category": "Glas in lood",
+          "price": 80,
+          "image": "obsidiaan1.jpg"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "",
+          "category": "Glas in lood",
+          "price": 80,
+          "image": "obsidiaan2.jpg"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "",
+          "category": "Glas in lood",
+          "price": 80,
+          "image": "obsidiaan3.jpg"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "",
+          "category": "Glas in lood",
+          "price": 80,
+          "image": "obsidiaan4.jpg"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "",
+          "category": "Glas in lood",
+          "price": 80,
+          "image": "obsidiaan5.jpg"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "",
+          "category": "Glas in lood",
+          "price": 80,
+          "image": "obsidiaan7.jpg"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "",
+          "category": "Glas in lood",
+          "price": 80,
+          "image": "obsidiaan8.jpg"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "",
+          "category": "Tiffany",
+          "price": 80,
+          "image": "obsidiaan9.jpg"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "",
+          "category": "Tiffany",
+          "price": 80,
+          "image": "obsidiaan10.jpg"
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,47 @@
+{
+    "title": "Hoe kan ik je helpen?",
+    "subtitle": "Contact",
+    "img": "obsidiaanBanner.jpg",
+    "address": {
+        "title": "Addres",
+        "row1": "Prinses Christinalaan 4",
+        "row2": "Bunde, 6241EP",
+        "row3": "Limburg, Nederland"
+    },
+    "mail": {
+        "title": "Mail",
+        "content": "Stuur ons een e-mail voor algemene vragen of ondersteuning:",
+        "phone": "+33 555 444 333",
+        "emails": [
+            "ajem.dols@gmail.com"
+        ]
+    },
+    "phone": {
+        "title": "Telefoon",
+        "content": "Voor vragen of meer informatie kunt u mij ook telefonisch bereiken op:",
+        "phone": "+31 6 20202527"
+    },
+    "content": "<p class='text-muted'>Effects present letters inquiry no an removed or friends. Desire behind latter me though in. Supposing shameless am he engrossed up additions. My possible peculiar together to. Desire so better am cannot he up before points. Remember mistaken opinions it pleasure of debating. Court front maids forty if aware their at. Chicken use are pressed removed. </p><p class='text-muted'>Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh. </p>",
+    "social": [
+        {
+            "icon": "twitter",
+            "link": "#"
+        },
+        {
+            "icon": "facebook",
+            "link": "#"
+        },
+        {
+            "icon": "instagram",
+            "link": "#"
+        },
+        {
+            "icon": "pinterest",
+            "link": "#"
+        },
+        {
+            "icon": "vimeo",
+            "link": "#"
+        }
+    ]
+}

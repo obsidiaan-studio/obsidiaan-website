@@ -1,0 +1,32 @@
+{
+    "title": "Mijn werken",
+    "subTitle": "Lorem ipsum dolor sit amet",
+    "button": "Zie alle werken",
+    "buttonLink": "/portfolio/glas-in-lood",
+    "swiperItems": [
+        {
+            "title": "Glas in lood",
+            "subtitle": "",
+            "img": "img/photo/obsidiaan3.jpg",
+            "link": "/category-2-rooms"
+        },
+        {
+            "title": "Glas in lood",
+            "subtitle": "",
+            "img": "img/photo/obsidiaan5.jpg",
+            "link": "/category-2-rooms"
+        },
+        {
+            "title": "Glas in lood",
+            "subtitle": "",
+            "img": "img/photo/obsidiaan2.jpg",
+            "link": "/category-2-rooms"
+        },
+        {
+            "title": "Glas in lood",
+            "subtitle": "",
+            "img": "img/photo/obsidiaan8.jpg",
+            "link": "/category-2-rooms"
+        }
+    ]
+}

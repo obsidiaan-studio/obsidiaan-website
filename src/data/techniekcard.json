@@ -1,0 +1,21 @@
+[
+    {
+      "title": "Glas in lood",
+      "content": "Glas in lood is een techniek waarbij stukken glas worden samengevoegd met loodprofielen om prachtige raamwerken te creëren. Het wordt vaak gebruikt in historische gebouwen en kerken.",
+      "image": "../content/img/photo/studioglasrijk-klassiek1.jpg",
+      "link": "/technieken/glas-in-lood"
+    },
+    {
+      "title": "Tiffany",
+      "content": "De Tiffany-techniek, ontwikkeld door Louis Comfort Tiffany, gebruikt kleurrijk glas dat wordt verbonden door koperfolie in plaats van lood. Dit geeft een unieke uitstraling aan lampen en vensters.",
+      "image": "../content/img/photo/studioglasrijk-klassiek2.jpg",
+      "link": "/technieken/tiffany"
+    },
+    {
+      "title": "Fussen",
+      "content": "De techniek van Fussen verwijst naar een stijl van glas-in-lood met bijzondere patronen en kleuren, vaak geïnspireerd door traditionele Europese ontwerpen.",
+      "image": "../content/img/photo/studioglasrijk-fusing1.jpg",
+      "link": "/technieken/fussen"
+    }
+  ]
+  

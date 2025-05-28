@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Obsidiaan",
+        "content": "Stijlvolle glaskunst geïnspireerd op eeuwenoud vakmanschap",
+        "social": [
+        ],
+        "lg": "4"
+    },
+    {
+        "title": "Technieken",
+        "links": [
+            {
+                "title": "Glas in lood",
+                "link": "/"
+            },
+            {
+                "title": "Tiffany",
+                "link": "/category-rooms"
+            },
+            {
+                "title": "Fusen",
+                "link": "/category-2-rooms"
+            }
+        ],
+        "lg": "2",
+        "md": "6"
+    },
+    {
+        "title": "Portfolio",
+        "links": [
+            {
+                "title": "Glas in lood",
+                "link": "/compare"
+            },
+            {
+                "title": "Tiffany",
+                "link": "/team"
+            },
+            {
+                "title": "Fusen",
+                "link": "/contact"
+            }
+        ],
+        "lg": "2",
+        "md": "6"
+    },
+    {
+        "title": "Over mij",
+        "contentBottomMargin": "3",
+        "links": [
+            {
+                "title": "Over mij",
+                "link": "/over-mij"
+            },
+            {
+                "title": "Contact",
+                "link": "/contact"
+            }
+        ]
+        
+    }
+]

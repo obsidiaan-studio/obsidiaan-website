@@ -1,0 +1,22 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Fussen Piece 1",
+          "category": "Fussen",
+          "image": "obsidiaan1.jpg"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Fussen Piece 2",
+          "category": "Fussen",
+          "image": "obsidiaan2.jpg"
+        }
+      }
+    ]
+  }
+  
