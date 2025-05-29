@@ -6,21 +6,20 @@ import geoJSON from "../../data/shop-data.json";
 import Map from "../../components/Map"; // Assuming you have a Map component
 
 export async function getStaticPaths() {
-  // Generate paths for all products based on their names (used as slugs)
   const paths = geoJSON.features.map((glass) => ({
-    params: { slug: glass.properties.name },
+    params: { slug: encodeURIComponent(glass.properties.name) },
   }));
-
   return {
     paths,
-    fallback: false, // Show 404 for undefined slugs
+    fallback: false,
   };
 }
 
 export async function getStaticProps({ params }) {
   // Find the product data based on the slug
+  const decodedSlug = decodeURIComponent(params.slug);
   const product = geoJSON.features.find(
-    (glass) => glass.properties.name === params.slug
+    (glass) => glass.properties.name === decodedSlug
   );
 
   return {

@@ -49,7 +49,7 @@
     "jumbotron": {
         "title": "Geintereseerd in mijn verhaal?",
         "button": "Zie alle werken",
-        "link": "/category-rooms",
+        "link": "/over-mij",
         "img": "img/photo/glasatelierclaire1.jpg"
     },
     "testimonials": {
