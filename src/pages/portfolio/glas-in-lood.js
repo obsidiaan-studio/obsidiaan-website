@@ -29,8 +29,8 @@ const GlasInLood = () => {
       <Container fluid className="pt-5 pb-3 border-bottom px-lg-5">
         <Row>
           <Col xl="8">
-            <h1 className="mb-4">Glas in Lood Portfolio</h1>
-            <p className="lead text-muted">Explore our Glas in Lood works.</p>
+            <h1 className="mb-4">Glas in lood portfolio</h1>
+            <p className="lead text-muted">Ontdek mijn Glas in lood werken.</p>
           </Col>
         </Row>
       </Container>

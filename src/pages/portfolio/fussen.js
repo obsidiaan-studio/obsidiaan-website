@@ -30,7 +30,7 @@ const Fussen = () => {
         <Row>
           <Col xl="8">
             <h1 className="mb-4">Fussen Portfolio</h1>
-            <p className="lead text-muted">Explore our Fussen works.</p>
+            <p className="lead text-muted">Ontdek mijn fussen werken.</p>
           </Col>
         </Row>
       </Container>

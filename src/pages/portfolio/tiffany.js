@@ -30,7 +30,7 @@ const Tiffany = () => {
         <Row>
           <Col xl="8">
             <h1 className="mb-4">Tiffany Portfolio</h1>
-            <p className="lead text-muted">Explore our Tiffany works.</p>
+            <p className="lead text-muted">Ontdek mijn Tiffany werken.</p>
           </Col>
         </Row>
       </Container>
