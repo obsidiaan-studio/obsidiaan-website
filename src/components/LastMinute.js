@@ -5,9 +5,30 @@ import { Container, Row, Col } from "react-bootstrap"
 import Swiper from "./Swiper"
 
 import data from "../data/lastminute.json"
-import geoJSON from "../data/rooms-geojson.json"
+import shopData from "../data/shop-data.json"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons"
+
+// Convert shop-data to array of card items, filtering out incomplete entries
+const shopSwiperItems = shopData.features
+  .filter(
+    (item) =>
+      item.properties &&
+      item.properties.id &&
+      item.properties.image &&
+      item.properties.category
+  )
+  .map((item) => ({
+    id: item.properties.id,
+    title: item.properties.category || "Glas in lood",
+    subtitle: "",
+    img: `/img/photo/${item.properties.image}`,
+    price: item.properties.price,
+    link: `/shop/${item.properties.id}`,
+    image: item.properties.image,
+    category: item.properties.category,
+    name: item.properties.name,
+  }))
 
 const LastMinute = (props) => {
   return (
@@ -40,7 +61,7 @@ const LastMinute = (props) => {
           md={2}
           lg={3}
           xl={4}
-          data={geoJSON.features}
+          data={shopSwiperItems}
           cards
           loop
           pagination

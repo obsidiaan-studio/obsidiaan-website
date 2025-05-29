@@ -4,7 +4,6 @@ import Masonry from "react-masonry-css";
 import "react-day-picker/dist/style.css";
 import { Container, Row, Col } from "react-bootstrap";
 
-import Pagination from "../../components/Pagination";
 import CardShop from "../../components/CardShop";
 
 import data from "../../data/category-3-rooms.json";
@@ -48,10 +47,10 @@ const Shop = () => {
           columnClassName="my-masonry-grid_column"
         >
           {geoJSON.features?.map((glass) => (
-            <div key={glass.properties.name} className="hover-animate">
+            <div key={glass.properties.id} className="hover-animate">
               <CardShop
                 data={glass.properties}
-                link={`/shop/${encodeURIComponent(glass.properties.name)}`} // Pass slug-based link
+                link={`/shop/${glass.properties.id}`} // Use id as slug
                 sizes="(max-width:576px) 100vw, (max-width:991px) 50vw, calc(25vw - 60px)"
               />
             </div>

@@ -7,9 +7,10 @@ import Image from "./CustomImage";
 
 const CardShop = (props) => {
   const data = props.data;
+  if (!data || !data.id) return null; // Prevent error if data is missing
 
-  // Generate slug from the product name
-  const slug = encodeURIComponent(data.name);
+  // Generate slug from the product id  
+  const slug = encodeURIComponent(data.id);
 
   return (
     <Card className="h-100 border-0 shadow">
@@ -31,7 +32,7 @@ const CardShop = (props) => {
         <Link href={`/shop/${slug}`}>
           <a
             className="tile-link"
-            aria-label={`Read more about ${data.name}`}
+            aria-label={`Read more about ${data.category}`}
           />
         </Link>
       </div>

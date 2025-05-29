@@ -11,15 +11,15 @@
         "links": [
             {
                 "title": "Glas in lood",
-                "link": "/"
+                "link": "/technieken/glas-in-lood"
             },
             {
                 "title": "Tiffany",
-                "link": "/category-rooms"
+                "link": "/technieken/tiffany"
             },
             {
-                "title": "Fusen",
-                "link": "/category-2-rooms"
+                "title": "Fussen",
+                "link": "/technieken/fussen"
             }
         ],
         "lg": "2",
@@ -30,15 +30,15 @@
         "links": [
             {
                 "title": "Glas in lood",
-                "link": "/compare"
+                "link": "/portfolio/glas-in-lood"
             },
             {
                 "title": "Tiffany",
-                "link": "/team"
+                "link": "/portfolio/tiffany"
             },
             {
-                "title": "Fusen",
-                "link": "/contact"
+                "title": "Fussen",
+                "link": "/portfolio/fussen"
             }
         ],
         "lg": "2",

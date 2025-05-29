@@ -4,6 +4,7 @@
       {
         "type": "Feature",
         "properties": {
+          "id": 1,
           "name": "",
           "category": "Glas in lood",
           "price": 80,
@@ -13,6 +14,7 @@
       {
         "type": "Feature",
         "properties": {
+          "id": 2,
           "name": "",
           "category": "Glas in lood",
           "price": 80,
@@ -22,6 +24,7 @@
       {
         "type": "Feature",
         "properties": {
+          "id": 3,
           "name": "",
           "category": "Glas in lood",
           "price": 80,
@@ -31,6 +34,7 @@
       {
         "type": "Feature",
         "properties": {
+          "id": 4,
           "name": "",
           "category": "Glas in lood",
           "price": 80,
@@ -40,6 +44,7 @@
       {
         "type": "Feature",
         "properties": {
+          "id": 5,
           "name": "",
           "category": "Glas in lood",
           "price": 80,
@@ -49,6 +54,7 @@
       {
         "type": "Feature",
         "properties": {
+          "id": 6,
           "name": "",
           "category": "Glas in lood",
           "price": 80,
@@ -58,6 +64,7 @@
       {
         "type": "Feature",
         "properties": {
+          "id": 7,
           "name": "",
           "category": "Glas in lood",
           "price": 80,
@@ -67,6 +74,7 @@
       {
         "type": "Feature",
         "properties": {
+          "id": 8,
           "name": "",
           "category": "Tiffany",
           "price": 80,
@@ -76,6 +84,7 @@
       {
         "type": "Feature",
         "properties": {
+          "id": 9,
           "name": "",
           "category": "Tiffany",
           "price": 80,
