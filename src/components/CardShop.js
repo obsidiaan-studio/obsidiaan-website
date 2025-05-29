@@ -8,8 +8,8 @@ import Image from "./CustomImage";
 const CardShop = (props) => {
   const data = props.data;
 
-  // Generate slug from the product name
-  const slug = encodeURIComponent(data.name);
+  // Generate slug from the product id
+  const slug = encodeURIComponent(data.id);
 
   return (
     <Card className="h-100 border-0 shadow">

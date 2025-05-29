@@ -7,7 +7,7 @@ import Map from "../../components/Map"; // Assuming you have a Map component
 
 export async function getStaticPaths() {
   const paths = geoJSON.features.map((glass) => ({
-    params: { slug: encodeURIComponent(glass.properties.name) },
+    params: { slug: String(glass.properties.id) }, // Use id as string
   }));
   return {
     paths,
@@ -16,10 +16,9 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  // Find the product data based on the slug
-  const decodedSlug = decodeURIComponent(params.slug);
+  // Find the product data based on the slug (id as string)
   const product = geoJSON.features.find(
-    (glass) => glass.properties.name === decodedSlug
+    (glass) => String(glass.properties.id) === params.slug
   );
 
   return {
@@ -51,7 +50,7 @@ const ProductPage = ({ product }) => {
             <Col lg="8">
               {/* Title */}
               <div className="text-block mb-5">
-                <h1 className="display-4"><strong>{product.name}</strong></h1>
+                <h1 className="display-4"><strong>{product.name || `Product #${product.id}`}</strong></h1>
               </div>
 
               {/* Image */}
@@ -59,7 +58,7 @@ const ProductPage = ({ product }) => {
                 <h3 className="mb-4">Foto</h3>
                 <img
                   src={`/content/img/photo/${product.image || "placeholder.jpg"}`}
-                  alt={product.name}
+                  alt={product.name || `Product #${product.id}`}
                   className="img-fluid rounded"
                 />
               </div>
@@ -89,7 +88,7 @@ const ProductPage = ({ product }) => {
                   <strong>Categorie:</strong> {product.category || "N/A"}
                 </p>
                 <p>
-                  <strong>Ge&iuml;nteresseerd?</strong> <br/> Ga naar onze{" "}
+                  <strong>Ge&iuml;nteresseerd?</strong> <br /> Ga naar onze{" "}
                   <a href="/contact">contact pagina</a> om een werk te kopen.
                 </p>
               </div>
