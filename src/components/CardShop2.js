@@ -12,21 +12,22 @@ const CardShop = (props) => {
   const slug = encodeURIComponent(data.name);
 
   return (
-    <Card className="h-100 border-0 shadow">
+    <Card className="border-0 shadow">
       <div className="card-img-top overflow-hidden gradient-overlay">
         <Image
-          src={`/content/img/photo/${data.image}`}
-          width={1350}
-          height={900}
-          alt={data.name}
-          layout="responsive"
-          loading={props.eager ? "eager" : "lazy"}
-          className="img-fluid"
-          sizes={
+        src={`/content/img/photo/${data.image}`}
+        width={1350}
+        height={900}
+        alt={data.name}
+        layout="responsive"
+        loading={props.eager ? "eager" : "lazy"}
+        className="img-fluid"
+        style={{ objectFit: "cover", height: "220px", width: "100%" }}
+        sizes={
             props.sizes
-              ? props.sizes
-              : "(max-width:576px) 100vw, (max-width:991px) 50vw, (max-width:1149px) 30vw, 280px"
-          }
+            ? props.sizes
+            : "(max-width:576px) 100vw, (max-width:991px) 50vw, (max-width:1149px) 30vw, 280px"
+        }
         />
         <Link href={`/shop/${slug}`}>
           <a

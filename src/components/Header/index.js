@@ -86,15 +86,6 @@ const Header = (props) => {
       aria-controls="navbar-main-menu"
       onClick={() => setCollapsed(!collapsed)}
     />
-
-
-          {/* NAVBAR TOGGLE */}
-          <Navbar.Toggle
-            aria-controls="navbar-main-menu"
-            onClick={() => setCollapsed(!collapsed)}
-          >
-            <FontAwesomeIcon icon={faBars} />
-          </Navbar.Toggle>
           {/* END NAVBAR TOGGLE */}
           <Navbar.Collapse id="navbar-main-menu">
             {/* MOBILE SEARCH FORM */}

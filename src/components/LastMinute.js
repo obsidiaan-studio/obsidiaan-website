@@ -59,6 +59,7 @@ const LastMinute = (props) => {
           spaceBetween={20}
           roundLengths
           md={2}
+          
           lg={3}
           xl={4}
           data={shopSwiperItems}

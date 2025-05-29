@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 
 import CardRestaurant from "./CardRestaurant"
-import CardShop from "./CardShop"
+import CardShop from "./CardShop2"
 import CardPoster from "./CardPoster"
 import CardProperty from "./CardProperty"
 import { Navigation, Pagination, Autoplay, EffectFade } from "swiper"
