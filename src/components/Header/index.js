@@ -2,17 +2,12 @@ import React, { useEffect, useState } from "react"
 import Link from "next/link"
 import Router from "next/router"
 import { Navbar, Nav, Container, Button } from "react-bootstrap"
-
 import ActiveLink from "./../ActiveLink"
-
 import menu from "../../data/menu.json"
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBars } from "@fortawesome/free-solid-svg-icons"
 import SearchForm from "./SearchForm"
-import UserMenu from "./UserMenu"
 import DropdownMenuItem from "./DropdownMenuItem"
 import UseWindowSize from "../../hooks/UseWindowSize"
+
 const Header = (props) => {
   const [parentName, setParentName] = useState(false)
   const [collapsed, setCollapsed] = useState(false)
