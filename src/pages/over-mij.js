@@ -98,8 +98,8 @@ const Terms = (props) => {
                 </p>
                 <h3>Obsidiaan, de oervorm van glas</h3>
                 <p>
-                Glas bestaat al zo lang als de aarde zelf. De oudste en meest natuurlijke vorm ervan is
-                <strong>obsidiaan</strong>: een vulkanisch glas dat ontstaat wanneer lava bij een uitbarsting extreem snel
+                Glas bestaat al zo lang als de aarde zelf. De oudste en meest natuurlijke vorm ervan
+                is <strong>obsidiaan</strong>: een vulkanisch glas dat ontstaat wanneer lava bij een uitbarsting extreem snel
                 afkoelt. Door deze snelle afkoeling krijgen kristallen geen kans zich te vormen, waardoor een
                 hard, glasachtig gesteente ontstaat dat grotendeels uit silica (siliciumdioxide) bestaat.
                 </p>
