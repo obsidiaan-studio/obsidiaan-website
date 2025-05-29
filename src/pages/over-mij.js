@@ -1,8 +1,9 @@
 import React from "react"
-
+import Image from "../components/CustomImage"
 import { Container, Row, Col, Breadcrumb } from "react-bootstrap"
 
 import Link from "next/link"
+import next from "next"
 
 export async function getStaticProps() {
   return {
@@ -20,14 +21,26 @@ export async function getStaticProps() {
 const Terms = (props) => {
   return (
     <React.Fragment>
-      <section className="hero py-5 py-lg-7">
-        <Container className="position-relative">
-          <Breadcrumb listProps={{ className: "ps-0 justify-content-center" }}>
+      <section className="hero py-6 py-lg-7 text-white dark-overlay">
+          <Image
+            src={`/content/img/photo/obsidiaanBanner.jpg`}
+            alt={"Over mij - Glasstudio Obsidiaan"}
+            className="bg-image"
+            loading="eager"
+            layout="fill"
+          />
+        <Container className="overlay-content">
+          <Breadcrumb
+            listProps={{
+              className: "text-white justify-content-center no-border mb-0",
+            }}
+          >
             <Link href="/" passHref>
               <Breadcrumb.Item>Home</Breadcrumb.Item>
             </Link>
-            <Breadcrumb.Item active>{props.title}</Breadcrumb.Item>
+            <Breadcrumb.Item active>Over mij</Breadcrumb.Item>
           </Breadcrumb>
+
           <h1 className="hero-heading">Over mij</h1>
         </Container>
       </section>
