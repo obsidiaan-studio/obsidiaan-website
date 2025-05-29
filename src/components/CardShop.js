@@ -8,7 +8,7 @@ import Image from "./CustomImage";
 const CardShop = (props) => {
   const data = props.data;
 
-  // Generate slug from the product id
+  // Generate slug from the product id  
   const slug = encodeURIComponent(data.id);
 
   return (
@@ -31,7 +31,7 @@ const CardShop = (props) => {
         <Link href={`/shop/${slug}`}>
           <a
             className="tile-link"
-            aria-label={`Read more about ${data.name}`}
+            aria-label={`Read more about ${data.category}`}
           />
         </Link>
       </div>

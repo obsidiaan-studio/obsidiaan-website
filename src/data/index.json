@@ -90,7 +90,7 @@
     },
     "blogPosts": {
         "title": "Mijn technieken",
-        "subTitle": "Lorem ipsum dolor sit amet",
+        "subTitle": "",
         "button": "See all articles",
         "buttonLink": "/blog"
     }

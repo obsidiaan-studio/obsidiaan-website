@@ -156,7 +156,7 @@ const SwiperComponent = () => {
             roundLengths
             md={2}
             lg={3}
-            data={geoJSONRooms.features}
+            data={geoJSONRooms.swiperItems}
             cards
           />
         </div>
@@ -187,7 +187,7 @@ const SwiperComponent = () => {
             roundLengths
             md={2}
             lg={3}
-            data={geoJSONRestaurants.features}
+            data={geoJSONRestaurants.swiperItems}
             restaurantCards
           />
         </div>
@@ -337,7 +337,7 @@ export default () => {
             roundLengths
             md={2}
             lg={3}
-            data={geoJSONRooms.features}
+            data={geoJSONRooms.swiperItems}
             cards
         />
     )
