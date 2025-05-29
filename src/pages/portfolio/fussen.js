@@ -29,7 +29,7 @@ const Fussen = () => {
       <Container fluid className="pt-5 pb-3 border-bottom px-lg-5">
         <Row>
           <Col xl="8">
-            <h1 className="mb-4">Fussen Portfolio</h1>
+            <h1 className="mb-4">Fussen portfolio</h1>
             <p className="lead text-muted">Ontdek mijn fussen werken.</p>
           </Col>
         </Row>

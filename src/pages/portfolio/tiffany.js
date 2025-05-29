@@ -29,8 +29,8 @@ const Tiffany = () => {
       <Container fluid className="pt-5 pb-3 border-bottom px-lg-5">
         <Row>
           <Col xl="8">
-            <h1 className="mb-4">Tiffany Portfolio</h1>
-            <p className="lead text-muted">Ontdek mijn Tiffany werken.</p>
+            <h1 className="mb-4">Tiffany portfolio</h1>
+            <p className="lead text-muted">Ontdek mijn tiffany werken.</p>
           </Col>
         </Row>
       </Container>
