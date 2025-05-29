@@ -86,7 +86,7 @@ const SwiperComponent = (props) => {
               <SwiperSlide key={index} className="h-auto px-2">
                 {props.cards && (
                   <div className="w-100 h-100 hover-animate">
-                    <CardShop data={slide.properties} />
+                    <CardShop data={slide} />
                   </div>
                 )}
                 {props.propertyCards && (

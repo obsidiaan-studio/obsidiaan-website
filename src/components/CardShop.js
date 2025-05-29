@@ -7,6 +7,7 @@ import Image from "./CustomImage";
 
 const CardShop = (props) => {
   const data = props.data;
+  if (!data || !data.id) return null; // Prevent error if data is missing
 
   // Generate slug from the product id  
   const slug = encodeURIComponent(data.id);
