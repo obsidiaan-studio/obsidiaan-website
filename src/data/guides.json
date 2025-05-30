@@ -7,26 +7,32 @@
         {
             "title": "Glas in lood",
             "subtitle": "",
-            "img": "img/photo/obsidiaan3.jpg",
+            "img": "img/photo/obsidiaan1.jpg",
             "link": "/portfolio/glas-in-lood"
+        },
+        {
+            "title": "Tiffany",
+            "subtitle": "",
+            "img": "img/photo/tiffany2.jpg",
+            "link": "/portfolio/tiffany"
         },
         {
             "title": "Glas in lood",
             "subtitle": "",
-            "img": "img/photo/obsidiaan5.jpg",
+            "img": "img/photo/obsidiaan4.jpg",
             "link": "/portfolio/glas-in-lood"
         },
         {
-            "title": "Glas in lood",
+            "title": "Tiffany",
             "subtitle": "",
-            "img": "img/photo/obsidiaan2.jpg",
-            "link": "/portfolio/glas-in-lood"
+            "img": "img/photo/Tiffany1.jpg",
+            "link": "/portfolio/tiffany"
         },
         {
-            "title": "Glas in lood",
+            "title": "Fussen",
             "subtitle": "",
-            "img": "img/photo/obsidiaan8.jpg",
-            "link": "/portfolio/glas-in-lood"
+            "img": "img/photo/fussen1.jpg",
+            "link": "/portfolio/fussen"
         }
     ]
 }

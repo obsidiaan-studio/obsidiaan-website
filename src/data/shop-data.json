@@ -7,8 +7,7 @@
           "id": 1,
           "name": "",
           "category": "Glas in lood",
-          "price": 80,
-          "image": "obsidiaan1.jpg"
+          "image": "glas-in-lood1.jpg"
         }
       },
       {
@@ -17,8 +16,7 @@
           "id": 2,
           "name": "",
           "category": "Glas in lood",
-          "price": 80,
-          "image": "obsidiaan2.jpg"
+          "image": "glas-in-lood2.jpg"
         }
       },
       {
@@ -27,8 +25,7 @@
           "id": 3,
           "name": "",
           "category": "Glas in lood",
-          "price": 80,
-          "image": "obsidiaan3.jpg"
+          "image": "glas-in-lood3.jpg"
         }
       },
       {
@@ -36,9 +33,8 @@
         "properties": {
           "id": 4,
           "name": "",
-          "category": "Glas in lood",
-          "price": 80,
-          "image": "obsidiaan4.jpg"
+          "category": "Tiffany",
+          "image": "tiffany1.jpg"
         }
       },
       {
@@ -46,9 +42,8 @@
         "properties": {
           "id": 5,
           "name": "",
-          "category": "Glas in lood",
-          "price": 80,
-          "image": "obsidiaan5.jpg"
+          "category": "Tiffany",
+          "image": "tiffany2.jpg"
         }
       },
       {
@@ -56,9 +51,8 @@
         "properties": {
           "id": 6,
           "name": "",
-          "category": "Glas in lood",
-          "price": 80,
-          "image": "obsidiaan7.jpg"
+          "category": "Fussen",
+          "image": "fussen1.jpg"
         }
       },
       {
@@ -66,29 +60,8 @@
         "properties": {
           "id": 7,
           "name": "",
-          "category": "Glas in lood",
-          "price": 80,
-          "image": "obsidiaan8.jpg"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "id": 8,
-          "name": "",
-          "category": "Tiffany",
-          "price": 80,
-          "image": "obsidiaan9.jpg"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "id": 9,
-          "name": "",
-          "category": "Tiffany",
-          "price": 80,
-          "image": "obsidiaan10.jpg"
+          "category": "Fussen",
+          "image": "fussen2.jpg"
         }
       }
     ]

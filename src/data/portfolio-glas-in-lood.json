@@ -5,16 +5,24 @@
         "type": "Feature",
         "properties": {
           "name": "Glas in Lood Piece 1",
-          "category": "Fussen",
-          "image": "obsidiaan5.jpg"
+          "category": "Glas in lood",
+          "image": "glas-in-lood1.jpg"
         }
       },
-      {
+            {
         "type": "Feature",
         "properties": {
           "name": "Glas in Lood Piece 2",
-          "category": "Fussen",
-          "image": "obsidiaan4.jpg"
+          "category": "Glas in lood",
+          "image": "glas-in-lood2.jpg"
+        }
+      },
+            {
+        "type": "Feature",
+        "properties": {
+          "name": "Glas in Lood Piece 3",
+          "category": "Glas in lood",
+          "image": "glas-in-lood3.jpg"
         }
       }
     ]

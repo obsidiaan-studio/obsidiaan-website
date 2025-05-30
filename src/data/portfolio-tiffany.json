@@ -5,16 +5,16 @@
         "type": "Feature",
         "properties": {
           "name": "Tiffany Piece 1",
-          "category": "Fussen",
-          "image": "obsidiaan3.jpg"
+          "category": "Tiffany",
+          "image": "tiffany1.jpg"
         }
       },
       {
         "type": "Feature",
         "properties": {
           "name": "Tiffany Piece 2",
-          "category": "Fussen",
-          "image": "obsidiaan4.jpg"
+          "category": "Tiffany",
+          "image": "tiffany2.jpg"
         }
       }
     ]

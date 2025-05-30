@@ -6,7 +6,7 @@
         "properties": {
           "name": "Fussen Piece 1",
           "category": "Fussen",
-          "image": "obsidiaan1.jpg"
+          "image": "fussen1.jpg"
         }
       },
       {
@@ -14,7 +14,7 @@
         "properties": {
           "name": "Fussen Piece 2",
           "category": "Fussen",
-          "image": "obsidiaan2.jpg"
+          "image": "fussen2.jpg"
         }
       }
     ]
