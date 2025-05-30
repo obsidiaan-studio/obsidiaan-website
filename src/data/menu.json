@@ -4,6 +4,14 @@
     "link": "/"
   },
   {
+    "title": "Over mij",
+    "link": "/over-mij"
+  },
+  {
+    "title": "Over de naam",
+    "link": "/over-de-naam"
+  },
+  {
     "title": "Technieken",
     "link": "/technieken",
     "dropdown": [
@@ -42,10 +50,6 @@
   {
     "title": "Shop",
     "link": "/shop"
-  },
-  {
-    "title": "Over mij",
-    "link": "/over-mij"
   },
   {
     "title": "Contact",

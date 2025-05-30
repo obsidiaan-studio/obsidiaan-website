@@ -96,24 +96,6 @@ const Terms = (props) => {
                 toekomstige generaties. Door mijn passie te delen en kennis over te dragen, draag ik
                 bij aan het voortbestaan van dit bijzondere vakmanschap.
                 </p>
-                <h3>Obsidiaan, de oervorm van glas</h3>
-                <p>
-                Glas bestaat al zo lang als de aarde zelf. De oudste en meest natuurlijke vorm ervan
-                is <strong>obsidiaan</strong>: een vulkanisch glas dat ontstaat wanneer lava bij een uitbarsting extreem snel
-                afkoelt. Door deze snelle afkoeling krijgen kristallen geen kans zich te vormen, waardoor een
-                hard, glasachtig gesteente ontstaat dat grotendeels uit silica (siliciumdioxide) bestaat.
-                </p>
-                <p>
-                Behalve bij vulkaanuitbarstingen kan glas ook ontstaan door andere extreme hittebronnen,
-                zoals blikseminslag of de inslag van meteorieten. In woestijnen kan zand onder zeer hoge
-                temperaturen smelten en vervolgens afkoelen tot een glasachtige substantie. Al deze
-                processen leveren vormen van natuurlijk glas op, waarvan <strong>obsidiaan</strong> de bekendste is.
-                </p>
-                <p>
-                Vanaf de ontdekking van glas (ongeveer 5000 jaar vóór Christus) begon een fascinerende
-                ontwikkeling: van het gebruik van natuurlijke obsidiaan tot de vervaardiging van kunstmatig
-                glas voor sieraden, gereedschappen en later ook voor vensters en kunstvoorwerpen.
-                </p>
               </div>
             </Col>
           </Row>
