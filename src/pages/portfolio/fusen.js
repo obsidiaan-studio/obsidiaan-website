@@ -2,7 +2,7 @@ import React from "react";
 import Masonry from "react-masonry-css";
 import { Container, Row, Col } from "react-bootstrap";
 import CardPortfolio from "../../components/CardPortfolio";
-import portfolioData from "../../data/portfolio-fussen.json";
+import portfolioData from "../../data/portfolio-fusen.json";
 
 export async function getStaticProps() {
   return {
@@ -12,7 +12,7 @@ export async function getStaticProps() {
         classes: "shadow",
         color: "white",
       },
-      title: "Fussen",
+      title: "fusen",
     },
   };
 }
@@ -23,14 +23,14 @@ const breakpointColumnsObj = {
   576: 1,
 };
 
-const Fussen = () => {
+const fusen = () => {
   return (
     <React.Fragment>
       <Container fluid className="pt-5 pb-3 border-bottom px-lg-5">
         <Row>
           <Col xl="8">
-            <h1 className="mb-4">Fussen portfolio</h1>
-            <p className="lead text-muted">Ontdek mijn fussen werken.</p>
+            <h1 className="mb-4">Glas fusen portfolio</h1>
+            <p className="lead text-muted">Ontdek mijn Glas fusen werken.</p>
           </Col>
         </Row>
       </Container>
@@ -70,4 +70,4 @@ const Fussen = () => {
   );
 };
 
-export default Fussen;
+export default fusen;

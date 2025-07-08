@@ -3,7 +3,7 @@ import Link from "next/link"
 import { Container, Row, Col, Breadcrumb } from "react-bootstrap"
 
 import TechniekCard from "../../components/TechniekCard"
-import data from "../../data/fussen.json"
+import data from "../../data/fusen.json"
 import Image from "../../components/CustomImage"
 import data2 from "../../data/index.json" 
 
@@ -16,12 +16,12 @@ export async function getStaticProps() {
         classes: "shadow",
         color: "white",
       },
-      title: "Fussen",
+      title: "fusen",
     },
   }
 }
 
-const Fussen = () => {
+const fusen = () => {
     return (
         <React.Fragment>
       <section className="hero py-6 py-lg-7 text-white dark-overlay">
@@ -108,4 +108,4 @@ const Fussen = () => {
     )
 }
 
-export default Fussen;
+export default fusen;

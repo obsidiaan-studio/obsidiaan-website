@@ -4,16 +4,16 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Fussen Piece 1",
-          "category": "Fussen",
+          "name": "Glas fusen Piece 1",
+          "category": "Glas fusen",
           "image": "fussen1.jpg"
         }
       },
       {
         "type": "Feature",
         "properties": {
-          "name": "Fussen Piece 2",
-          "category": "Fussen",
+          "name": "Glas fusen Piece 2",
+          "category": "Glas fusen",
           "image": "fussen2.jpg"
         }
       }

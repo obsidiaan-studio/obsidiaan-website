@@ -46,13 +46,21 @@ const Index = () => {
           <Row>
             <Col xl="10">
               {data.hero && (
-                <div className="text-center text-lg-start">
-                  <p className="subtitle letter-spacing-4 mb-2 text-secondary text-shadow">
-                    {data.hero.subTitle}
-                  </p>
-                  <h1 className="display-3 fw-bold text-shadow">
-                    {data.hero.title}
-                  </h1>
+                <div className="text-center text-lg-start d-flex align-items-center">
+                  <img
+                    src="/img/Obsidiaan_logo_drawing_v1.2_thick2.png"
+                    height="256"
+                    alt="Obsidiaan Logo"
+                    className="mb-3 mb-lg-0 me-lg-4"
+                  />
+                  <div>
+                    <p className="subtitle letter-spacing-4 mb-2 text-secondary text-shadow">
+                      {data.hero.subTitle}
+                    </p>
+                    <h1 className="display-3 fw-bold text-shadow">
+                      {data.hero.title}
+                    </h1>
+                  </div>
                 </div>
               )}
             </Col>
