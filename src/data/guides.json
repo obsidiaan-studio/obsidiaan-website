@@ -1,38 +1,57 @@
 {
     "title": "Mijn werken",
     "subTitle": "",
-    "button": "Zie alle werken",
-    "buttonLink": "/portfolio/glas-in-lood",
-    "swiperItems": [
-        {
+    "categories": {
+        "glasInLood": {
             "title": "Glas in lood",
-            "subtitle": "",
-            "img": "img/photo/glas-in-lood1.jpg",
-            "link": "/portfolio/glas-in-lood"
+            "button": "Zie alle glas in lood werken",
+            "buttonLink": "/portfolio/glas-in-lood",
+            "swiperItems": [
+                {
+                    "title": "Glas in lood raam",
+                    "subtitle": "",
+                    "img": "img/photo/glas-in-lood1.jpg",
+                    "link": "/portfolio/glas-in-lood"
+                },
+                {
+                    "title": "Glas in lood paneel",
+                    "subtitle": "",
+                    "img": "img/photo/glas-in-lood2.jpg",
+                    "link": "/portfolio/glas-in-lood"
+                }
+            ]
         },
-        {
+        "tiffany": {
             "title": "Tiffany",
-            "subtitle": "",
-            "img": "img/photo/tiffany2.jpg",
-            "link": "/portfolio/tiffany"
+            "button": "Zie alle Tiffany werken",
+            "buttonLink": "/portfolio/tiffany",
+            "swiperItems": [
+                {
+                    "title": "Tiffany lamp",
+                    "subtitle": "",
+                    "img": "img/photo/tiffany2.jpg",
+                    "link": "/portfolio/tiffany"
+                },
+                {
+                    "title": "Tiffany staande lamp",
+                    "subtitle": "",
+                    "img": "img/photo/Tiffany1.jpg",
+                    "link": "/portfolio/tiffany"
+                }
+            ]
         },
-        {
-            "title": "Glas in lood",
-            "subtitle": "",
-            "img": "img/photo/glas-in-lood2.jpg",
-            "link": "/portfolio/glas-in-lood"
-        },
-        {
-            "title": "Tiffany",
-            "subtitle": "",
-            "img": "img/photo/Tiffany1.jpg",
-            "link": "/portfolio/tiffany"
-        },
-        {
+        "glasFusen": {
             "title": "Glas fusen",
-            "subtitle": "",
-            "img": "img/photo/fussen1.jpg",
-            "link": "/portfolio/fusen"
+            "button": "Zie alle glas fusen werken",
+            "buttonLink": "/portfolio/fusen",
+            "swiperItems": [
+                {
+                    "title": "Glas fusen kunstwerk",
+                    "subtitle": "",
+                    "img": "img/photo/fussen1.jpg",
+                    "link": "/portfolio/fusen"
+                }
+            ]
         }
-    ]
+    }
 }
