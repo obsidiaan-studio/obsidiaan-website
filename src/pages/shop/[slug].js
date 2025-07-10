@@ -87,6 +87,14 @@ const ProductPage = ({ product }) => {
                 <p>
                   <strong>Categorie:</strong> {product.category || "N/A"}
                 </p>
+                {product.dimensions && (
+                  <p>
+                    <strong>Afmetingen:</strong><br />
+                    Breedte: {product.dimensions.width}<br />
+                    Hoogte: {product.dimensions.height}<br />
+                    Diepte: {product.dimensions.depth}
+                  </p>
+                )}
                 <p>
                   <strong>Ge&iuml;nteresseerd?</strong> <br /> Ga naar onze{" "}
                   <a href="/contact">contact pagina</a> om een werk te kopen.

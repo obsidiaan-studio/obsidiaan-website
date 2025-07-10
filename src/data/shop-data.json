@@ -7,7 +7,12 @@
           "id": 1,
           "name": "",
           "category": "Glas in lood",
-          "image": "glas-in-lood1.jpg"
+          "image": "glas-in-lood1.jpg",
+          "dimensions": {
+            "width": "30cm",
+            "height": "40cm",
+            "depth": "2cm"
+          }
         }
       },
       {
@@ -16,7 +21,12 @@
           "id": 2,
           "name": "",
           "category": "Glas in lood",
-          "image": "glas-in-lood2.jpg"
+          "image": "glas-in-lood2.jpg",
+          "dimensions": {
+            "width": "25cm",
+            "height": "35cm",
+            "depth": "2cm"
+          }
         }
       },
       {
@@ -25,7 +35,12 @@
           "id": 3,
           "name": "",
           "category": "Glas in lood",
-          "image": "glas-in-lood3.jpg"
+          "image": "glas-in-lood3.jpg",
+          "dimensions": {
+            "width": "40cm",
+            "height": "50cm",
+            "depth": "2cm"
+          }
         }
       },
       {
@@ -34,7 +49,12 @@
           "id": 4,
           "name": "",
           "category": "Tiffany",
-          "image": "tiffany1.jpg"
+          "image": "tiffany1.jpg",
+          "dimensions": {
+            "width": "20cm",
+            "height": "25cm",
+            "depth": "15cm"
+          }
         }
       },
       {
@@ -43,7 +63,12 @@
           "id": 5,
           "name": "",
           "category": "Tiffany",
-          "image": "tiffany2.jpg"
+          "image": "tiffany2.jpg",
+          "dimensions": {
+            "width": "35cm",
+            "height": "45cm",
+            "depth": "20cm"
+          }
         }
       },
       {
@@ -52,7 +77,12 @@
           "id": 6,
           "name": "",
           "category": "Glas fusen",
-          "image": "fussen1.jpg"
+          "image": "fussen1.jpg",
+          "dimensions": {
+            "width": "15cm",
+            "height": "20cm",
+            "depth": "3cm"
+          }
         }
       },
       {
@@ -61,9 +91,13 @@
           "id": 7,
           "name": "",
           "category": "Glas fusen",
-          "image": "fussen2.jpg"
+          "image": "fussen2.jpg",
+          "dimensions": {
+            "width": "25cm",
+            "height": "30cm",
+            "depth": "4cm"
+          }
         }
       }
     ]
   }
-  
