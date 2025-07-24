@@ -54,9 +54,6 @@ const Index = () => {
                     className="mb-3 mb-lg-0 me-lg-4"
                   />
                   <div>
-                    <p className="subtitle letter-spacing-4 mb-2 text-secondary text-shadow">
-                      {data.hero.subTitle}
-                    </p>
                     <h1 className="display-3 fw-bold text-shadow">
                       {data.hero.title}
                     </h1>

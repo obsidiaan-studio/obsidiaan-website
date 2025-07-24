@@ -79,12 +79,12 @@ $navbarHeight: 72px;
 } @else if $templateColour == blue and not $primary {
   $primary: #4e66f8;
   @if not $secondary {
-    $secondary: #e83e8c;
+    $secondary: #9d93ac;
   }
 } @else if $templateColour == sea and not $primary {
   $primary: #59a4b5;
   @if not $secondary {
-    $secondary: #e646a6;
+    $secondary: #9d93ac;
   }
 } @else if $templateColour == violet and not $primary {
   $primary: #9a6ee2;
