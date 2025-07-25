@@ -4,37 +4,37 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Glas in Lood Piece 1",
+          "name": "Glas in lood piece 5",
           "category": "Glas in lood",
-          "image": "glas-in-lood1.jpg",
-          "type": "portfolio"
-        }
-      },
-            {
-        "type": "Feature",
-        "properties": {
-          "name": "Glas in Lood Piece 2",
-          "category": "Glas in lood",
-          "image": "glas-in-lood2.jpg",
-          "type": "portfolio"
+          "image": "glas-in-lood-WIP1.jpg",
+          "type": "wip"
         }
       },
       {
         "type": "Feature",
         "properties": {
-          "name": "Glas in lood piece 3",
+          "name": "Glas in lood piece 6",
           "category": "Glas in lood",
-          "image": "glas-in-lood4.jpg",
-          "type": "portfolio"
+          "image": "glas-in-lood-WIP2.jpg",
+          "type": "wip"
         }
       },
       {
         "type": "Feature",
         "properties": {
-          "name": "Glas in lood piece 4",
+          "name": "Glas in lood piece 7",
           "category": "Glas in lood",
-          "image": "glas-in-lood5.jpg",
-          "type": "portfolio"
+          "image": "glas-in-lood-WIP3.jpg",
+          "type": "wip"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Glas in lood piece 8",
+          "category": "Glas in lood",
+          "image": "glas-in-lood-WIP4.jpg",
+          "type": "wip"
         }
       }
     ]

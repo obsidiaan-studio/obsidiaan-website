@@ -8,7 +8,7 @@
             "buttonLink": "/portfolio/glas-in-lood",
             "swiperItems": [
                 {
-                    "title": "Glas in lood raam",
+                    "title": "Glas in lood",
                     "subtitle": "",
                     "img": "img/photo/glas-in-lood1.jpg",
                     "link": "/portfolio/glas-in-lood"
@@ -17,6 +17,18 @@
                     "title": "Glas in lood paneel",
                     "subtitle": "",
                     "img": "img/photo/glas-in-lood2.jpg",
+                    "link": "/portfolio/glas-in-lood"
+                },
+                {
+                    "title": "Glas in lood",
+                    "subtitle": "",
+                    "img": "img/photo/glas-in-lood4.jpg",
+                    "link": "/portfolio/glas-in-lood"
+                },
+                {
+                    "title": "Glas in lood",
+                    "subtitle": "",
+                    "img": "img/photo/glas-in-lood5.jpg",
                     "link": "/portfolio/glas-in-lood"
                 }
             ]
@@ -27,13 +39,13 @@
             "buttonLink": "/portfolio/tiffany",
             "swiperItems": [
                 {
-                    "title": "Tiffany lamp",
+                    "title": "Tiffany",
                     "subtitle": "",
                     "img": "img/photo/tiffany2.jpg",
                     "link": "/portfolio/tiffany"
                 },
                 {
-                    "title": "Tiffany staande lamp",
+                    "title": "Tiffany",
                     "subtitle": "",
                     "img": "img/photo/Tiffany1.jpg",
                     "link": "/portfolio/tiffany"
@@ -46,10 +58,53 @@
             "buttonLink": "/portfolio/fusen",
             "swiperItems": [
                 {
-                    "title": "Glas fusen kunstwerk",
+                    "title": "Glas fusen",
                     "subtitle": "",
                     "img": "img/photo/fussen1.jpg",
                     "link": "/portfolio/fusen"
+                },
+                {
+                    "title": "Glas fusen",
+                    "subtitle": "",
+                    "img": "img/photo/fussen2.jpg",
+                    "link": "/portfolio/fusen"
+                },
+                {
+                    "title": "Glas fusen",
+                    "subtitle": "",
+                    "img": "img/photo/fusen3.jpg",
+                    "link": "/portfolio/fusen"
+                }
+            ]
+        },
+        "workInProgress": {
+            "title": "Work in Progress",
+            "button": "Zie alle WIP werken",
+            "buttonLink": "/portfolio/work-in-progress",
+            "swiperItems": [
+                {
+                    "title": "Glas in lood",
+                    "subtitle": "",
+                    "img": "img/photo/glas-in-lood-WIP1.jpg",
+                    "link": "/portfolio/work-in-progress"
+                },
+                {
+                    "title": "Glas in lood",
+                    "subtitle": "",
+                    "img": "img/photo/glas-in-lood-WIP2.jpg",
+                    "link": "/portfolio/work-in-progress"
+                },
+                {
+                    "title": "Glas in lood",
+                    "subtitle": "",
+                    "img": "img/photo/glas-in-lood-WIP3.jpg",
+                    "link": "/portfolio/work-in-progress"
+                },
+                 {
+                    "title": "Glas in lood",
+                    "subtitle": "",
+                    "img": "img/photo/glas-in-lood-WIP4.jpg",
+                    "link": "/portfolio/work-in-progress"
                 }
             ]
         }

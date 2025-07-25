@@ -114,17 +114,6 @@
             "depth": "5cm"
           }
         }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "id": 10,
-          "name": "",
-          "category": "Glas in lood",
-          "image": "glas-in-lood5.jpg",
-          "dimensions": {
-          }
-        }
       }
     ]
   }

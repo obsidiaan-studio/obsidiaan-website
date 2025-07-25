@@ -36,6 +36,17 @@ const Footer = () => {
                   className="mb-5 mb-lg-0"
                 >
                   <div className="fw-bold text-uppercase text-dark mb-3">
+                    {item.title === "Obsidiaan" && (
+                      <img
+                        src="/img/Obsidiaan_logo_drawing_v1.2_thick2.png"
+                        alt="Obsidiaan Logo"
+                        style={{
+                          height: "40px",
+                          marginRight: "12px",
+                          verticalAlign: "middle",
+                        }}
+                      />
+                    )}
                     {item.title}
                   </div>
                   {item.content && (

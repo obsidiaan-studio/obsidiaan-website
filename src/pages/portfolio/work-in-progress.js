@@ -1,9 +1,8 @@
 import React from "react";
 import Masonry from "react-masonry-css";
 import { Container, Row, Col } from "react-bootstrap";
-import CardPortfolio from "../../components/CardPortfolio";
 import CardWIP from "../../components/CardWIP";
-import portfolioData from "../../data/portfolio-glas-in-lood.json";
+import portfolioData from "../../data/portfolio-work-in-progress.json";
 
 export async function getStaticProps() {
   return {
@@ -13,7 +12,7 @@ export async function getStaticProps() {
         classes: "shadow",
         color: "white",
       },
-      title: "Glas in Lood",
+      title: "Work in Progress",
     },
   };
 }
@@ -24,14 +23,14 @@ const breakpointColumnsObj = {
   576: 1,
 };
 
-const GlasInLood = () => {
+const WorkInProgress = () => {
   return (
     <React.Fragment>
       <Container fluid className="pt-5 pb-3 border-bottom px-lg-5">
         <Row>
           <Col xl="8">
-            <h1 className="mb-4">Glas in lood portfolio</h1>
-            <p className="lead text-muted">Ontdek mijn Glas in lood werken.</p>
+            <h1 className="mb-4">Work in Progress</h1>
+            <p className="lead text-muted">Bekijk mijn werkstukken in progress voor opdrachtgevers.</p>
           </Col>
         </Row>
       </Container>
@@ -44,7 +43,7 @@ const GlasInLood = () => {
         >
           {portfolioData.features?.map((item) => (
             <div key={item.properties.name} className="hover-animate">
-              <CardPortfolio
+              <CardWIP
                 data={item.properties}
                 sizes="(max-width:576px) 100vw, (max-width:991px) 50vw, calc(25vw - 60px)"
               />
@@ -71,4 +70,4 @@ const GlasInLood = () => {
   );
 };
 
-export default GlasInLood;
+export default WorkInProgress;
