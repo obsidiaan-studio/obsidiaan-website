@@ -60,21 +60,6 @@ const fusen = () => {
               />
             </Col>
           </Row>
-          {data.img && (
-            <Row>
-              <Col xl="10" className="mx-auto mb-5">
-                <Image
-                  src={`/content/img/photo/${data.img}`}
-                  alt=""
-                  width={1501}
-                  height={834}
-                  className="img-fluid"
-                  layout="responsive"
-                  sizes="(max-width: 1199px) 100vw, 920px"
-                />
-              </Col>
-            </Row>
-          )}
           {data.content && (
             <Row>
               <Col xl="8" lg="10" className="mx-auto">
