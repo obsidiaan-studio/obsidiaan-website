@@ -87,12 +87,24 @@ const ProductPage = ({ product }) => {
                 <p>
                   <strong>Categorie:</strong> {product.category || "N/A"}
                 </p>
+                {/* Custom product text from shop-data.json */}
+                {product.info && (
+                  <p>
+                    {product.info}
+                  </p>
+                )}
                 {product.dimensions && (
                   <p>
                     <strong>Afmetingen:</strong><br />
-                    Breedte: {product.dimensions.width}<br />
-                    Hoogte: {product.dimensions.height}<br />
-                    Diepte: {product.dimensions.depth}
+                    {product.dimensions.diameter && (
+                      <>Diameter: {product.dimensions.diameter}<br /></>
+                    )}
+                    {product.dimensions.width && product.dimensions.height && (
+                      <>
+                        Breedte: {product.dimensions.width}<br />
+                        Hoogte: {product.dimensions.height}<br />
+                      </>
+                    )}
                   </p>
                 )}
                 <p>

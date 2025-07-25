@@ -17,12 +17,20 @@
           "image": "glas-in-lood2.jpg"
         }
       },
-            {
+      {
         "type": "Feature",
         "properties": {
-          "name": "Glas in Lood Piece 3",
+          "name": "Glas in lood piece 3",
           "category": "Glas in lood",
-          "image": "glas-in-lood3.jpg"
+          "image": "glas-in-lood4.jpg"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Glas in lood piece 4",
+          "category": "Glas in lood",
+          "image": "glas-in-lood5.jpg"
         }
       }
     ]

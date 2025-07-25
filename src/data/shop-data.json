@@ -8,9 +8,10 @@
           "name": "",
           "category": "Glas in lood",
           "image": "glas-in-lood1.jpg",
+          "info": "Hoogte en breedte is inclusief het metalen frame.",
           "dimensions": {
-            "width": "30cm",
-            "height": "40cm",
+            "width": "91cm",
+            "height": "58cm",
             "depth": "2cm"
           }
         }
@@ -22,23 +23,10 @@
           "name": "",
           "category": "Glas in lood",
           "image": "glas-in-lood2.jpg",
+          "info": "Hoogte en breedte is inclusief het metalen frame.",
           "dimensions": {
-            "width": "25cm",
-            "height": "35cm",
-            "depth": "2cm"
-          }
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "id": 3,
-          "name": "",
-          "category": "Glas in lood",
-          "image": "glas-in-lood3.jpg",
-          "dimensions": {
-            "width": "40cm",
-            "height": "50cm",
+            "width": "49,5cm",
+            "height": "39,5cm",
             "depth": "2cm"
           }
         }
@@ -51,8 +39,8 @@
           "category": "Tiffany",
           "image": "tiffany1.jpg",
           "dimensions": {
-            "width": "20cm",
-            "height": "25cm",
+            "width": "91cm",
+            "height": "42cm",
             "depth": "15cm"
           }
         }
@@ -66,7 +54,7 @@
           "image": "tiffany2.jpg",
           "dimensions": {
             "width": "35cm",
-            "height": "45cm",
+            "height": "52cm",
             "depth": "20cm"
           }
         }
@@ -79,9 +67,7 @@
           "category": "Glas fusen",
           "image": "fussen1.jpg",
           "dimensions": {
-            "width": "15cm",
-            "height": "20cm",
-            "depth": "3cm"
+            "diameter": "35cm"
           }
         }
       },
@@ -93,9 +79,50 @@
           "category": "Glas fusen",
           "image": "fussen2.jpg",
           "dimensions": {
-            "width": "25cm",
-            "height": "30cm",
+            "width": "20cm",
+            "height": "42cm",
             "depth": "4cm"
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 8,
+          "name": "",
+          "category": "Glas fusen",
+          "image": "fusen3.jpg",
+          "info": "Onderzetters, 4 stuks.",
+          "dimensions": {
+            "width": "10cm",
+            "height": "10cm",
+            "depth": "5cm"
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 9,
+          "name": "",
+          "category": "Glas in lood",
+          "image": "glas-in-lood4.jpg",
+          "info": "Hoogte en breedte is inclusief het metalen frame.",
+          "dimensions": {
+            "width": "30cm",
+            "height": "50cm",
+            "depth": "5cm"
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 10,
+          "name": "",
+          "category": "Glas in lood",
+          "image": "glas-in-lood5.jpg",
+          "dimensions": {
           }
         }
       }

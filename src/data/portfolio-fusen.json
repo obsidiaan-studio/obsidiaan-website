@@ -16,6 +16,14 @@
           "category": "Glas fusen",
           "image": "fussen2.jpg"
         }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Glas fusen Piece 3",
+          "category": "Glas fusen",
+          "image": "fusen3.jpg"
+        }
       }
     ]
   }
