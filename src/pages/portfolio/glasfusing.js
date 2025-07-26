@@ -23,14 +23,14 @@ const breakpointColumnsObj = {
   576: 1,
 };
 
-const fusen = () => {
+const glasfusing = () => {
   return (
     <React.Fragment>
       <Container fluid className="pt-5 pb-3 border-bottom px-lg-5">
         <Row>
           <Col xl="8">
-            <h1 className="mb-4">Glas fusen portfolio</h1>
-            <p className="lead text-muted">Ontdek mijn Glas fusen werken.</p>
+            <h1 className="mb-4">Glasfusing portfolio</h1>
+            <p className="lead text-muted">Ontdek mijn Glasfusing werken.</p>
           </Col>
         </Row>
       </Container>
@@ -70,4 +70,4 @@ const fusen = () => {
   );
 };
 
-export default fusen;
+export default glasfusing;

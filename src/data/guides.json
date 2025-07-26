@@ -53,27 +53,27 @@
             ]
         },
         "glasFusen": {
-            "title": "Glas fusen",
-            "button": "Zie alle glas fusen werken",
-            "buttonLink": "/portfolio/fusen",
+            "title": "Glasfusing",
+            "button": "Zie alle glasfusing werken",
+            "buttonLink": "/portfolio/glasfusing",
             "swiperItems": [
                 {
-                    "title": "Glas fusen",
+                    "title": "Glasfusing",
                     "subtitle": "",
                     "img": "img/photo/fussen1.jpg",
-                    "link": "/portfolio/fusen"
+                    "link": "/portfolio/glasfusing"
                 },
                 {
-                    "title": "Glas fusen",
+                    "title": "Glasfusing",
                     "subtitle": "",
                     "img": "img/photo/fussen2.jpg",
-                    "link": "/portfolio/fusen"
+                    "link": "/portfolio/glasfusing"
                 },
                 {
-                    "title": "Glas fusen",
+                    "title": "Glasfusing",
                     "subtitle": "",
                     "img": "img/photo/fusen3.jpg",
-                    "link": "/portfolio/fusen"
+                    "link": "/portfolio/glasfusing"
                 }
             ]
         },

@@ -21,7 +21,7 @@ export async function getStaticProps() {
   }
 }
 
-const fusen = () => {
+const glasfusing = () => {
     return (
         <React.Fragment>
       <section className="hero py-6 py-lg-7 text-white dark-overlay">
@@ -93,4 +93,4 @@ const fusen = () => {
     )
 }
 
-export default fusen;
+export default glasfusing;

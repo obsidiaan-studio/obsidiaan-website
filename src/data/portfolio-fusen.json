@@ -4,24 +4,24 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Glas fusen Piece 1",
-          "category": "Glas fusen",
+          "name": "Glasfusing stuk 1",
+          "category": "Glasfusing",
           "image": "fussen1.jpg"
         }
       },
       {
         "type": "Feature",
         "properties": {
-          "name": "Glas fusen Piece 2",
-          "category": "Glas fusen",
+          "name": "Glasfusing stuk 2",
+          "category": "Glasfusing",
           "image": "fussen2.jpg"
         }
       },
       {
         "type": "Feature",
         "properties": {
-          "name": "Glas fusen Piece 3",
-          "category": "Glas fusen",
+          "name": "Glasfusing stuk 3",
+          "category": "Glasfusing",
           "image": "fusen3.jpg"
         }
       }

@@ -64,7 +64,7 @@
         "properties": {
           "id": 6,
           "name": "",
-          "category": "Glas fusen",
+          "category": "Glasfusing",
           "image": "fussen1.jpg",
           "dimensions": {
             "diameter": "35cm"
@@ -76,7 +76,7 @@
         "properties": {
           "id": 7,
           "name": "",
-          "category": "Glas fusen",
+          "category": "Glasfusing",
           "image": "fussen2.jpg",
           "dimensions": {
             "width": "20cm",
@@ -90,7 +90,7 @@
         "properties": {
           "id": 8,
           "name": "",
-          "category": "Glas fusen",
+          "category": "Glasfusing",
           "image": "fusen3.jpg",
           "info": "Onderzetters, 4 stuks.",
           "dimensions": {
