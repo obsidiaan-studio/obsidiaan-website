@@ -36,6 +36,15 @@
           "image": "glas-in-lood-WIP4.jpg",
           "type": "wip"
         }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Glas in lood stuk 8",
+          "category": "Glas in lood",
+          "image": "glas-in-lood-WIP5.jpg",
+          "type": "wip"
+        }
       }
     ]
   }

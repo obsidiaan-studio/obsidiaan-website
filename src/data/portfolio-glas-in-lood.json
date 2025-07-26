@@ -4,7 +4,7 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Glas in Lood Piece 1",
+          "name": "Glas in Lood Stuk 1",
           "category": "Glas in lood",
           "image": "glas-in-lood1.jpg",
           "type": "portfolio"
@@ -13,7 +13,7 @@
             {
         "type": "Feature",
         "properties": {
-          "name": "Glas in Lood Piece 2",
+          "name": "Glas in Lood Stuk 2",
           "category": "Glas in lood",
           "image": "glas-in-lood2.jpg",
           "type": "portfolio"
@@ -22,7 +22,7 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Glas in lood piece 3",
+          "name": "Glas in lood stuk 3",
           "category": "Glas in lood",
           "image": "glas-in-lood4.jpg",
           "type": "portfolio"
@@ -31,9 +31,18 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Glas in lood piece 4",
+          "name": "Glas in lood stuk 4",
           "category": "Glas in lood",
           "image": "glas-in-lood5.jpg",
+          "type": "portfolio"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Glas in lood stuk 5",
+          "category": "Glas in lood",
+          "image": "glas-in-lood6.jpg",
           "type": "portfolio"
         }
       }

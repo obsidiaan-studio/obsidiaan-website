@@ -4,7 +4,7 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Tiffany Piece 1",
+          "name": "Tiffany stuk 1",
           "category": "Tiffany",
           "image": "tiffany1.jpg"
         }
@@ -12,9 +12,17 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Tiffany Piece 2",
+          "name": "Tiffany stuk 2",
           "category": "Tiffany",
           "image": "tiffany2.jpg"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Tiffany stuk 3",
+          "category": "Tiffany",
+          "image": "tiffany3.jpg"
         }
       }
     ]
