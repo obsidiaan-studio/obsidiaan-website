@@ -14,7 +14,7 @@
                     "link": "/portfolio/glas-in-lood"
                 },
                 {
-                    "title": "Glas in lood paneel",
+                    "title": "Glas in lood",
                     "subtitle": "",
                     "img": "img/photo/glas-in-lood2.jpg",
                     "link": "/portfolio/glas-in-lood"
@@ -29,6 +29,12 @@
                     "title": "Glas in lood",
                     "subtitle": "",
                     "img": "img/photo/glas-in-lood5.jpg",
+                    "link": "/portfolio/glas-in-lood"
+                },
+                {
+                    "title": "Glas in lood",
+                    "subtitle": "",
+                    "img": "img/photo/glas-in-lood6.jpg",
                     "link": "/portfolio/glas-in-lood"
                 }
             ]
@@ -48,6 +54,12 @@
                     "title": "Tiffany",
                     "subtitle": "",
                     "img": "img/photo/Tiffany1.jpg",
+                    "link": "/portfolio/tiffany"
+                },
+                {
+                    "title": "Tiffany",
+                    "subtitle": "",
+                    "img": "img/photo/tiffany3.jpg",
                     "link": "/portfolio/tiffany"
                 }
             ]
@@ -104,6 +116,12 @@
                     "title": "Glas in lood",
                     "subtitle": "",
                     "img": "img/photo/glas-in-lood-WIP4.jpg",
+                    "link": "/portfolio/work-in-progress"
+                },
+                {
+                    "title": "Glas in lood",
+                    "subtitle": "",
+                    "img": "img/photo/glas-in-lood-WIP5.jpg",
                     "link": "/portfolio/work-in-progress"
                 }
             ]
